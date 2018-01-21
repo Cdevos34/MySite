@@ -1,0 +1,279 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat");
+@import url("https://fonts.googleapis.com/css?family=Montserrat");
+body {
+  margin: 0;
+  padding: 0; }
+  body .home {
+    position: fixed;
+    width: 35px;
+    top: 8px;
+    left: 35px;
+    z-index: 6; }
+    @media screen and (max-width: 940px) {
+      body .home {
+        display: none; } }
+  body header .wrapper .navigation {
+    background-color: #fff;
+    z-index: 5;
+    width: 100%;
+    height: 70px;
+    position: fixed;
+    -webkit-box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23); }
+    @media screen and (max-width: 940px) {
+      body header .wrapper .navigation {
+        display: none; } }
+  @media screen and (max-width: 940px) {
+    body header .wrapper .mobile-navbar {
+      height: 100%;
+      width: 60%;
+      left: 40%;
+      z-index: 10;
+      background-image: url(../images/fabric.png); } }
+  @media screen and (max-width: 940px) {
+    body header .wrapper .mobile-navbar-ul {
+      display: inline-block;
+      width: 100px;
+      top: 14%;
+      font-size: 0.7em;
+      height: 80%;
+      width: 25%;
+      left: 50%;
+      margin: 0px;
+      padding: 0px; } }
+  body header .wrapper ul {
+    z-index: 2;
+    position: fixed;
+    display: inline-block;
+    width: 720px;
+    top: 7px;
+    right: 100px; }
+    @media screen and (max-width: 940px) {
+      body header .wrapper ul {
+        display: none; } }
+    body header .wrapper ul .home-menu-item {
+      color: #ffc966; }
+    body header .wrapper ul .about-me-menu-item {
+      color: #ffc966; }
+    body header .wrapper ul .projects-menu-item {
+      color: #ffc966; }
+    body header .wrapper ul .skills-menu-item {
+      color: #ffc966; }
+    body header .wrapper ul a {
+      color: #000;
+      text-decoration: none; }
+    body header .wrapper ul li {
+      color: #000;
+      display: inline-block;
+      padding-right: 15%;
+      font-size: 1em;
+      font-weight: 900;
+      font-family: 'Montserrat', sans-serif;
+      -webkit-transition: 0.5s;
+      -o-transition: 0.5s;
+      transition: 0.5s; }
+      @media screen and (max-width: 940px) {
+        body header .wrapper ul li {
+          padding: 30px 0px;
+          font-size: 1.8em;
+          border-bottom: 2px solid #000; } }
+      body header .wrapper ul li:hover {
+        text-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23); }
+  body header .wrapper .navigation-icons ul {
+    width: 52px;
+    display: none;
+    top: 6%;
+    right: 2%; }
+    @media screen and (max-width: 940px) {
+      body header .wrapper .navigation-icons ul {
+        z-index: 5;
+        width: 40%;
+        top: 75%;
+        right: 10%;
+        z-index: 12; } }
+    body header .wrapper .navigation-icons ul .icon {
+      width: 42px;
+      padding-top: 80px;
+      height: 42px; }
+      @media screen and (max-width: 768px) {
+        body header .wrapper .navigation-icons ul .icon {
+          margin: 7px;
+          width: 35px;
+          height: 35px;
+          padding: 0px;
+          z-index: 12; } }
+  body header .wrapper .close .line1 {
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+    top: 57% !important; }
+  body header .wrapper .close .line3 {
+    -webkit-transform: rotate(-405deg);
+    -ms-transform: rotate(-405deg);
+    transform: rotate(-405deg);
+    top: 57% !important; }
+  body header .wrapper .main-item {
+    z-index: 11;
+    width: 40px;
+    height: 40px;
+    position: fixed;
+    right: 2.5%;
+    top: 5.8px; }
+    @media screen and (max-width: 940px) {
+      body header .wrapper .main-item {
+        right: 5%; } }
+    body header .wrapper .main-item .line {
+      height: 6px;
+      width: 100%;
+      background: #000;
+      position: absolute;
+      border-radius: 50px;
+      -webkit-transition: all ease 0.3s;
+      -o-transition: all ease 0.3s;
+      transition: all ease 0.3s;
+      -webkit-box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+      box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23); }
+      @media screen and (max-width: 940px) {
+        body header .wrapper .main-item .line {
+          background: #fff; } }
+    body header .wrapper .main-item .line1 {
+      top: 30%; }
+    body header .wrapper .main-item .line2 {
+      top: 60%; }
+    body header .wrapper .main-item .line3 {
+      top: 90%; }
+
+body {
+  margin: 0;
+  padding: 0;
+  max-width: 100%;
+  background-color: #b2b2ff;
+  overflow-x: hidden;
+  /*#load-screen{
+        background: #000;
+        width: 100vw;
+        height: 100vh;
+        z-index: 80;
+        position: fixed;
+        
+        #loading{
+            position: relative;
+            color: white;
+            text-align: center;
+            top: 50%;
+        }
+        
+    }*/ }
+  body .hello-face {
+    background-image: url(../images/bg.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    padding: 0; }
+    @media screen and (max-width: 768px) {
+      body .hello-face {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        min-height: 100vh;
+        margin: 0;
+        height: auto; } }
+    body .hello-face .face {
+      padding-right: 100px;
+      max-width: 15%;
+      -webkit-animation-duration: 1.2s;
+      animation-duration: 1.2s;
+      -webkit-animation-delay: 0.5s;
+      animation-delay: 0.5s;
+      -webkit-box-flex: 1;
+      -ms-flex: 1;
+      flex: 1; }
+      @media screen and (max-width: 768px) {
+        body .hello-face .face {
+          padding-right: 0px;
+          max-width: 100%;
+          width: 190px;
+          max-height: 290px;
+          margin: 70px 0% 10% 0%; } }
+    body .hello-face a {
+      text-decoration: none; }
+    body .hello-face .hello {
+      -webkit-animation-delay: 1s;
+      animation-delay: 1s;
+      -webkit-box-flex: 1;
+      -ms-flex: 1;
+      flex: 1;
+      font-family: 'Montserrat', sans-serif;
+      font-size: 2.5em;
+      text-decoration: none;
+      color: #fff;
+      border: 10px solid #fff;
+      padding: 40px;
+      border-radius: 20px;
+      -webkit-box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+      box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22); }
+      @media screen and (max-width: 1280px) {
+        body .hello-face .hello {
+          font-size: 1.5em;
+          border: 5px solid #fff; } }
+      @media screen and (max-width: 768px) {
+        body .hello-face .hello {
+          font-size: 1.5em;
+          max-width: 40%;
+          margin: 0% 10%;
+          margin: 0 auto;
+          margin-bottom: 10%;
+          border: 7px solid #fff; } }
+  body .intro {
+    min-height: 67vh;
+    height: auto;
+    width: 100vw;
+    position: relative;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    z-index: -1; }
+    @media screen and (max-width: 768px) {
+      body .intro {
+        min-height: auto; } }
+    body .intro .intro-title {
+      text-align: center;
+      width: 100%;
+      position: relative;
+      font-family: montserrat;
+      font-size: 3em;
+      color: #fff;
+      padding-bottom: 70px;
+      max-width: 70%;
+      margin: 0 auto; }
+      @media screen and (max-width: 768px) {
+        body .intro .intro-title {
+          font-size: 2em; } }
+    body .intro .intro-text {
+      text-align: center;
+      font-family: montserrat;
+      font-size: 2em;
+      color: #fff;
+      width: 30%;
+      padding: 80px;
+      margin: 0 auto;
+      background-color: #7f7fff;
+      border-radius: 7px;
+      height: auto;
+      -webkit-box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+      box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22); }
+      @media screen and (max-width: 768px) {
+        body .intro .intro-text {
+          font-size: 1.3em;
+          padding: 50px;
+          width: 50%; } }

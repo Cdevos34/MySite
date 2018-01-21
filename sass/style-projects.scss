@@ -1,0 +1,507 @@
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import url('https://fonts.googleapis.com/css?family=Saira:900');
+@import url('https://fonts.googleapis.com/css?family=Permanent+Marker');
+//@import 'variables';
+@import 'variables';
+@import 'menu';
+
+
+body{
+    margin: 0;
+    padding: 0;
+    //overflow: hidden;
+    @media screen and (max-width: $break-mobile){
+        overflow: auto;
+    }
+    
+    .button-wrapper{
+        position: fixed; 
+        height: 100vh;
+        width: 20px;
+        padding: 0px;
+        z-index: 5;
+        margin-left: 50px;
+        display: flex;
+        flex-wrap: wrap;
+        //align-items: center;
+        align-content: center;
+        align-self: center;
+        pointer-events: none;
+        background-color: rgba(255,255,255,0);
+        @media screen and (max-width: $break-ipad){
+            width: 100%;
+            display: inline-block;
+            text-align: center;
+            top: 87%;
+            margin-left: 0px;
+        }
+        
+        .next{
+        border-radius: 50%;
+        animation-delay: 1.5s; 
+        //display: inline-block;
+        width: 20px;
+        height: 20px;
+        margin: 20px;
+        border: 2px solid #fff;
+        background-color: rgba(0,0,0,0);
+        pointer-events: all;
+            &:hover{
+                background-color: #fff;
+            }
+        @media screen and (max-width: $break-mobile){
+            //width: 100vw;
+            width: 20px;
+            height: 20px;
+            margin: 20px;
+            border: 2px solid #fff;
+            }    
+        }
+        
+    }
+    
+    .project-img1{
+        background-image: url(../images/sticker.jpg);
+        background-size: cover;
+        height: 100vh;
+        width: 100%;
+        background-position: center;
+        background-attachment: fixed;
+        position: relative;
+        margin: 0;
+        padding: 0;
+        @media screen and (max-width: $break-mobile){
+            background-image: url(../images/sticker-m.jpg);
+            height: 100vh;
+            width: 100vw;
+            }
+        
+        .project-info-wrapper1{
+            position: relative;
+            top: 36%;
+            text-align: center;
+            max-width: 90%;
+            margin: 0 auto;
+            @media screen and (max-width: $break-mobile){
+                top: 31%;
+            }
+            
+            .first-project-title{
+                z-index: 4;
+                padding: 0px;
+                margin: 0;
+                position: relative;
+                font-family: montserrat, sans-serif;
+                color: #ffffff;
+                letter-spacing: 10px;
+                font-size: 8em;
+                text-shadow:  0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+                //background-position: center;
+                @media screen and (max-width: $break-mobile){
+                    font-size: 3em;
+                    margin-bottom: 10px;
+                    letter-spacing: 3px;
+                    text-align: center;
+                    left: 0;
+                    color: #fff;
+                    }
+                }
+        
+            .sub1{
+                color: #000;
+                //background-color: #fff;
+                width: 50%;
+                margin: 0 auto;
+                font-size: 25px;
+                margin-bottom: 3%;
+                padding: 0px;
+                font-family: montserrat, sans-serif;
+                word-spacing: 10px;
+                letter-spacing: 10px;
+                text-shadow:  0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+                position: relative;
+                padding-top: 0px;
+                    @media screen and (max-width: $break-mobile){
+                        left: 0;
+                        text-align: center;
+                        letter-spacing: 0px;
+                        word-spacing: 2px;
+                        font-size: 0.9em;
+                        color: #000;
+                        width: 100%;
+                        
+                    }
+                }
+            
+            .project-btn1{
+                //display: none;
+                border: 2px solid #fff;
+                background-color: rgba(0,0,0,0);
+                font-family: montserrat;
+                font-size:1.1em;
+                font-weight: 300;
+                color: #000;
+                height: 50px;
+                width: 250px;
+                background-color: rgba(215,215,215,0.7);
+                text-shadow:  0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+                position: relative;
+                transition: 0.7s;
+                &:hover{
+                    background-color: rgba(123,32,180,0.5);
+                    color: #fff;
+                }
+                @media screen and(max-width: $break-mobile){
+                    //display: block;
+                    width: 200px;
+                    height: 40px;
+                    top: 30px;
+                    background-color: #444;
+                    font-family: montserrat;
+                    font-size: 1em;
+                    color: #fff;
+                    background-color: rgba(0,0,0,0);
+                    position: relative;
+                    margin: 0 auto;
+                    border: 3px solid #fff;
+                    z-index: 5;
+                    cursor: pointer;
+                    }
+                }
+            
+        }  
+        
+    }
+        
+    .project-img2{
+        background-image: url(../images/keyboard.jpg);
+        background-size: cover;
+        height: 100vh;
+        background-attachment: fixed;
+        background-position: center;
+        position: relative;
+        //z-index: -50;
+        @media screen and (max-width: $break-mobile){
+            height: 100vh;
+            width: 100vw;
+            background-image: url(../images/keyboard-m.jpg);
+            }
+        
+        .project-info-wrapper2{
+            position: relative;
+            top: 36%;
+            text-align: center;
+            max-width: 90%;
+            margin: 0 auto;
+            @media screen and (max-width: $break-mobile){
+                top: 31%;
+            }
+            
+            .second-project-title{
+                z-index: 4;
+                padding: 0px;
+                margin: 0;
+                position: relative;
+                font-family: montserrat, sans-serif;
+                color: #ffffff;
+                letter-spacing: 10px;
+                font-size: 8em;
+                text-shadow:  0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+                //background-position: center;
+                @media screen and (max-width: $break-mobile){
+                    font-size: 3em;
+                    margin-bottom: 10px;
+                    letter-spacing: 3px;
+                    text-align: center;
+                    left: 0;
+                    color: #fff;
+                    
+                    }
+                }
+        
+            .sub2{
+                color: #000;
+                //background-color: #fff;
+                width: 50%;
+                margin: 0 auto;
+                font-size: 25px;
+                margin-bottom: 3%;
+                padding: 0px;
+                font-family: montserrat, sans-serif;
+                word-spacing: 10px;
+                letter-spacing: 10px;
+                text-shadow:  0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+                position: relative;
+                padding-top: 0px;
+                    @media screen and (max-width: $break-mobile){
+                        left: 0;
+                        text-align: center;
+                        font-size: 1em;
+                        word-spacing: 2px;
+                        letter-spacing: 0px;
+                        width: 100%;
+                        
+                    }
+                }
+            
+            .project-btn2{
+                border: 2px solid #fff;
+                background-color: rgba(0,0,0,0);
+                font-family: montserrat;
+                font-size:1.1em;
+                font-weight: 300;
+                color: #000;
+                height: 50px;
+                width: 250px;
+                background-color: rgba(215,215,215,0.7);
+                text-shadow:  0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+                position: relative;
+                transition: 0.7s;
+                &:hover{
+                    background-color: rgba(255,0,0,0.5);
+                    color: #fff;
+                }
+                @media screen and(max-width: $break-mobile){
+                    //display: block;
+                    width: 200px;
+                    height: 40px;
+                    top: 30px;
+                    background-color: #444;
+                    font-family: montserrat;
+                    font-size: 1em;
+                    color: #fff;
+                    background-color: rgba(0,0,0,0);
+                    position: relative;
+                    margin: 0 auto;
+                    border: 3px solid #fff;
+                    z-index: 5;
+                    cursor: pointer;
+                    }
+                }
+            
+        }
+        
+    }
+    
+    .project-img3{
+        background-image: url(../images/rasp.jpg);
+        background-size: cover;
+        height: 100vh;
+        background-attachment: fixed;
+        background-position: center;
+        position: relative;
+        //z-index: -50;
+        @media screen and (max-width: $break-mobile){
+            height: 100vh;
+            width: 100vw;
+            background-image: url(../images/rasp-m.jpg);
+            }
+        
+        .project-info-wrapper3{
+            position: relative;
+            top: 36%;
+            text-align: center;
+            max-width: 90%;
+            margin: 0 auto;
+            @media screen and (max-width: $break-mobile){
+                top: 31%;
+            }
+            
+            .third-project-title{
+                z-index: 4;
+                padding: 0px;
+                margin: 0;
+                position: relative;
+                font-family: montserrat, sans-serif;
+                color: #ffffff;
+                letter-spacing: 10px;
+                font-size: 8em;
+                text-shadow:  0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+                //background-position: center;
+                @media screen and (max-width: $break-mobile){
+                    font-size: 3em;
+                    margin-bottom: 10px;
+                    letter-spacing: 3px;
+                    text-align: center;
+                    left: 0;
+                    color: #fff;
+                    }
+                }
+        
+            .sub3{
+                color: #000;
+                //background-color: #fff;
+                width: 50%;
+                margin: 0 auto;
+                font-size: 25px;
+                margin-bottom: 3%;
+                padding: 0px;
+                font-family: montserrat, sans-serif;
+                word-spacing: 10px;
+                letter-spacing: 10px;
+                text-shadow:  0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+                position: relative;
+                padding-top: 0px;
+                    @media screen and (max-width: $break-mobile){
+                        left: 0;
+                        text-align: center;
+                        font-size: 1em;
+                        letter-spacing: 0px;
+                        word-spacing: 2px;
+                        width: 100%;
+                        
+                    }
+                }
+            
+            .project-btn3{
+                border: 2px solid #fff;
+                background-color: rgba(0,0,0,0);
+                font-family: montserrat;
+                font-size:1.1em;
+                font-weight: 300;
+                color: #000;
+                height: 50px;
+                width: 250px;
+                background-color: rgba(215,215,215,0.7);
+                text-shadow:  0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+                position: relative;
+                transition: 0.7s;
+                &:hover{
+                    background-color: rgba(0,0,255,0.5);
+                    color: #fff;
+                }
+                @media screen and(max-width: $break-mobile){
+                    //display: block;
+                    width: 200px;
+                    height: 40px;
+                    top: 30px;
+                    background-color: #444;
+                    font-family: montserrat;
+                    font-size: 1em;
+                    color: #fff;
+                    background-color: rgba(0,0,0,0);
+                    position: relative;
+                    margin: 0 auto;
+                    border: 3px solid #fff;
+                    z-index: 5;
+                    cursor: pointer;
+                    }
+                }
+            
+        }
+        
+    }
+    
+    .project-img4{
+        background-image: url(../images/gamble.jpg);
+        background-size: cover;
+        height: 100vh;
+        background-attachment: fixed;
+        position: relative;
+        //z-index: -50;
+        background-position: center;
+        @media screen and (max-width: $break-mobile){
+            height: 100vh;
+            width: 100vw;
+            background-image: url(../images/gamble-m.jpg);
+            }
+        
+        .project-info-wrapper4{
+            position: relative;
+            top: 36%;
+            text-align: center;
+            max-width: 90%;
+            margin: 0 auto;
+            @media screen and (max-width: $break-mobile){
+                top: 31%;
+            }
+            
+            .fourth-project-title{
+                z-index: 4;
+                padding: 0px;
+                margin: 0;
+                position: relative;
+                font-family: montserrat, sans-serif;
+                color: #ffffff;
+                letter-spacing: 10px;
+                font-size: 8em;
+                text-shadow:  0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+                //background-position: center;
+                @media screen and (max-width: $break-mobile){
+                    font-size: 3em;
+                    margin-bottom: 10px;
+                    letter-spacing: 3px;
+                    text-align: center;
+                    left: 0;
+                    color: #fff;
+                    }
+                }
+        
+            .sub4{
+                color: #000;
+                //background-color: #fff;
+                width: 50%;
+                margin: 0 auto;
+                font-size: 25px;
+                margin-bottom: 3%;
+                padding: 0px;
+                font-family: montserrat, sans-serif;
+                word-spacing: 10px;
+                letter-spacing: 10px;
+                text-shadow:  0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+                position: relative;
+                padding-top: 0px;
+                    @media screen and (max-width: $break-mobile){
+                        left: 0;
+                        text-align: center;
+                        font-size: 1em;
+                        word-spacing: 0px;
+                        letter-spacing: 2px;
+                        width: 100%;
+                        
+                    }
+                }
+            
+            .project-btn4{
+                border: 2px solid #fff;
+                background-color: rgba(0,0,0,0);
+                font-family: montserrat;
+                font-size:1.1em;
+                font-weight: 300;
+                color: #000;
+                height: 50px;
+                width: 250px;
+                background-color: rgba(215,215,215,0.7);
+                text-shadow:  0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+                position: relative;
+                transition: 0.7s;
+                &:hover{
+                    background-color: rgba(100,255,0,0.5);
+                    color: #fff;
+                }
+                @media screen and(max-width: $break-mobile){
+                    //display: block;
+                    width: 200px;
+                    height: 40px;
+                    top: 30px;
+                    background-color: #444;
+                    font-family: montserrat;
+                    font-size: 1em;
+                    color: #fff;
+                    background-color: rgba(0,0,0,0);
+                    position: relative;
+                    margin: 0 auto;
+                    border: 3px solid #fff;
+                    z-index: 5;
+                    cursor: pointer;
+                    }
+                }
+            
+        }
+        
+    }
+
+}
+        
+    

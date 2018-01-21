@@ -1,0 +1,71 @@
+html
+    head 
+        link(rel="stylesheet" type="text/css" href="style/style-projects.css")
+        link(rel="stylesheet" type="text/css" href="css/animate.css")
+        //link(rel="stylesheet" type="text/css" href="css/onepage-scroll.css")
+        meta(name="viewport" content="width=device-width, initial-scale=1")
+    body
+        header
+            .wrapper
+                .main-item.menu
+                    span.line.line1
+                    span.line.line2
+                    span.line.line3
+                nav.navigation
+                        ul.links
+                            a(href="index.html"): li Home
+                            a(href="about-me.html"): li About Me
+                            a(href="projects.html"): li.projects-menu-item Projects
+                            a(href="skills.html"): li Skills
+                nav.navigation-icons
+                    ul.all-icons
+                        a(href="https://www.facebook.com/chris.devos.98"): img.icon(src="Icons/facebook-icon.png")
+                        a(href="https://www.behance.net/CdeVos"): img.icon(src="Icons/behance-icon.png")
+                        a(href="https://www.facebook.com/chris.devos.98"): img.icon(src="Icons/whatsapp-icon.png")
+                        a(href="https://github.com/Cdevos34"): img.icon(src="Icons/github-icon.png")
+                        a(href="https://www.facebook.com/chris.devos.98"): img.icon(src="Icons/email-icon.png")
+        
+        a(href="index.html"): img.home(src="Icons/face-icon.png")
+        .button-wrapper.animated.fadeInUp
+            a(href="#firstProject"): button.next#first
+            a(href="#secondProject"): button.next#second
+            a(href="#thirdProject"): button.next#third 
+            a(href="#fourthProject"): button.next#fourth
+        .main
+            section#firstProject.project-img1
+                .project-info-wrapper1
+                    h1.first-project-title Insilico
+                    p.sub1 A virtual Reality Tour Project
+                    a(href="insilico.html"): button.project-btn1(href="insilico.html") Learn More
+            section#secondProject.project-img2
+                .project-info-wrapper2
+                    h1.second-project-title Life Drive
+                    p.sub2 Game Of Life Project
+                    a(href="life-drive.html"): button.project-btn2(href="life-drive.html") Learn More
+            section#thirdProject.project-img3
+                .project-info-wrapper3
+                    h1.third-project-title Berry Bot
+                    p.sub3 A Robot build with Raspberry Pi
+                    a(href="berry-bot.html"): button.project-btn3 Learn More
+            section#fourthProject.project-img4
+                .project-info-wrapper4
+                    h1.fourth-project-title Useless
+                    p.sub4 A Useless machine project
+                    a(href="useless.html"): button.project-btn4 Learn More
+    
+    
+    
+    
+    
+    
+    
+    //Jquery en Scripts        
+    script(src="https://code.jquery.com/jquery-3.2.1.min.js"
+  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  crossorigin="anonymous")
+    //script(type="text/javascript" src="js/jquery.onepage-scroll.min.js")
+    script(type="text/javascript" src="js/wow.min.js")
+    script(type="text/javascript" src="js/javascript.js")
+    //script(type="text/javascript" src="js/init-scroll.js")
+    //scroll script test
+    //script(type="text/javascript" src="js/scroll.js")

@@ -1,0 +1,411 @@
+//$break-mobile: 768px;
+
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import 'variables';
+@import 'menu';
+
+body{
+    background-image: url(../images/fabric.png);
+    
+    .banner{
+        background-image: url(/images/gamble.jpg);
+        //background-attachment: fixed;
+        background-size: cover;
+        background-position: center;
+        display: flex;
+        justify-content: center;
+        //align-items: center;
+        flex-direction: column;
+        min-height: 100vh;
+        @media screen and(max-width: $break-mobile){
+            background-image: url(/images/gamble-m.jpg);
+            width: 100%;
+        }
+    
+        .insilico{
+            color: #fff;
+            font-size: 8em;
+            margin-bottom: 100px;
+            margin-top: 0px;
+            //min-width: 500px;
+            //position: absolute;
+            letter-spacing: 30px;
+            font-family: montserrat, sans-serif;
+            text-align: center;
+            width: 100%;
+            //top: 13%;
+            text-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+            @media screen and (max-width: $break-mobile){
+                font-size: 3.2em;
+                width: 100%;
+                letter-spacing: 10px;
+                margin-bottom: 20px;
+            }
+        }
+
+        .insilico-intro{
+            font-size: 1.2em;
+            //background-color: #fff;
+            padding: 50px;
+            color: #fff;
+            max-width: 30%;
+            font-family: montserrat;
+            z-index: 1;
+            margin: 0 auto;
+            border-radius: 20px;
+            border: 10px solid #fff;
+            animation-delay: 0.5s;
+            animation-duration: 1.5s;
+            box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+            @media screen and (max-width: $break-mobile){
+                font-size: 1.1em;
+                max-width: 80%;
+                border: none;
+                box-shadow: none;
+            }
+        }    
+        
+    
+    }
+    
+    .team{
+        background-color: $green-dark;
+        padding-top: 50px;
+        //opacity: 0.5;
+        height: auto;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        box-shadow: 0px 18px 48px -22px rgba(0,0,0,0.65);
+            
+        
+        .team-title{
+            //flex-direction: column;
+            //position: relative;
+            padding-top: 10px;
+            letter-spacing: 10px;
+            word-spacing: 30px;
+            color: #fff;
+            font-family: montserrat, sans-serif;
+            font-size: 2.5em;
+            @media screen and (max-width: $break-large){
+                font-size: 2em;
+                letter-spacing: 2px;
+                word-spacing: 0px;
+                max-width: 80%;
+                text-align: center;
+            }
+            
+        }
+        
+        
+        .members{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-wrap: wrap;
+            
+            .chris{
+                border-radius: 50%;
+                width: 100px;
+                margin: 20px 50px;
+                transition: 0.2s;
+                @media screen and (max-width: $break-mobile){
+                    margin: 10px;
+                    width: 100px;
+                }
+                &:hover{
+                    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+
+                }    
+            }
+            
+            .no-person{
+                border-radius: 50%;
+                background-color: red;
+                width: 100px;
+                margin: 20px 50px;
+                transition: 0.2s;
+                @media screen and (max-width: $break-mobile){
+                    display: none;
+                }
+                &:hover{
+                    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+
+                }    
+            }
+            
+        }
+    }
+    
+    .slanted-div1{
+            position: relative;
+            width: 100%;
+            height: 200px;
+            background-color: $green-dark;
+            @media screen and (max-width: $break-mobile){
+                height: 100px
+            }
+            &:after{
+                position: absolute;
+                width: 100%;
+                height: 100%;
+                content: '';
+                background: inherit;
+                top: 0px;
+                right: 0px;
+                bottom: 0px;
+                left: 0px;
+                //box-shadow: -10px 24px 18px -16px rgba(0,0,0,0.35);
+                transform-origin: top left;
+                transform: skewY(4deg);
+            }
+        }
+    
+    .application{
+        background-image: url(../images/fabric.png);
+        background-position: center;
+        background-attachment: fixed;
+        height: 500px;
+        //background-size: cover;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        //padding-top: px;
+        background-color: $blue-medium;
+        @media screen and(max-width: $break-mobile){
+            height: 100vh;
+        }
+        
+        
+        .arduino-board{
+            width: 550px;
+            transform: rotate(90deg);
+            //height: 750px;
+            z-index: 2;
+            align-self: center;
+            @media screen and(max-width: $break-mobile){
+                padding-top: 50px;
+                transform: rotate(0deg);
+                width: 320px;
+                //height: 365px;
+            }
+        }
+        
+        .app-text{
+            //margin: 10% 0%;
+            margin-left: 150px;
+            font-family: montserrat, sans-serif;
+            color: #000;
+            margin-top: 200px;
+            font-size: 1.5em;
+            //letter-spacing: 2px;
+            //height: 220px;
+            z-index: 1;
+            max-width: 25%;
+            align-self: center;
+            //max-height: 50%;
+            height: auto;
+            //text-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+            //padding: 40px;
+            //background-color: $purple-dark;
+            border-radius: 20px;
+            //box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+            @media screen and(max-width: $break-mobile){
+                font-size: 1em;
+                align-self: center;
+                max-width: 80%;
+                margin-left: 0;
+                margin-top: 5%;
+                justify-content: center;
+                background-color: rgba(0,0,0,0);
+                box-shadow: none;
+                margin-bottom: 0px;
+            }
+        }
+    }
+    
+    .slanted-div2{
+        position: relative;
+        width: 100%;
+        height: 200px;
+        background-image: url(../images/fabric.png);
+        @media screen and (max-width: $break-mobile){
+            height: 100px
+        }
+        &:after{
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            content: '';
+            background: inherit;
+            top: 0px;
+            right: 0px;
+            bottom: 0px;
+            left: 0px;
+            //box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+            transform-origin: top left;
+            transform: skewY(4deg);
+        }
+    }
+    
+    .main-project-section{
+        height: auto;
+        background-color: $green-dark;
+        display: flex;
+        flex-direction: column;
+        
+        .table-intro{
+            color: #fff;
+            max-width: 40%;
+            flex: 1;
+            //letter-spacing: 2px;
+            padding: 0px;
+            font-family: montserrat, sans-serif;
+            font-size: 1.5em;
+            text-align: left;
+            margin: 0 auto;
+            margin-top: 250px;
+            margin-bottom: 100px;
+            @media screen and(max-width: $break-mobile){
+                max-width: 80%;  
+                font-size: 1em;
+                margin-top: 100px;
+            }
+        }
+        
+        .insilico-vid{
+            height: 50%;
+            width: 40%;
+            align-self: center;
+            padding: 0%;
+            display: flex;
+            flex-direction: column;
+            //background-color: #ff9400;
+            //border-radius: 20px;
+            margin: 0%;
+            @media screen and (max-width: $break-mobile){
+                height: 25%;
+                width: 80%;
+            }
+        }
+        
+        .soldering{
+            width: 40%;
+            padding-bottom: 80px;
+            margin: 0 auto;
+            @media screen and(max-width: $break-mobile){
+                width: 90%;
+                flex-direction: column;
+                font-size: 1em;
+            }
+        }
+        
+    }
+    
+    .app-section{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        width: 100%;
+        height: 800px;
+        margin-bottom: 100px;
+        //background-image: url(../images/bg.jpg);
+        background-attachment: fixed;
+        @media screen and(max-width: $break-mobile){
+            flex-direction: column;
+            height: 750px;
+        }
+        
+        .useless-app{
+            display: flex;
+            //padding: 100px;
+            //width: 10px;
+            width: 450px;
+            //height: 650px;
+            z-index: 1;
+            //flex: 1;
+            @media screen and(max-width: $break-mobile){
+                width: 240px;
+                //height: 330px;
+                margin: 0 auto;
+                flex-direction: column;
+                font-size: 1em;
+            }
+        }
+        
+        .locations-p{
+            display: flex;
+            font-family: montserrat;
+            font-size: 1.5em;
+            flex: 1;
+            max-width: 25%;
+            margin-right: 150px;
+            margin-top: 250px;
+            @media screen and(max-width: $break-mobile){
+                flex-direction: column;
+                max-width: 80%;
+                margin-top: 0px;
+                margin: 100 auto;
+                font-size: 1em;
+            }
+        }
+            
+    }
+    
+    .more-info{
+        height: 300px;
+        width: 100%;
+        pointer-events: none;
+        background-color: #fff;
+        padding-top: 50px;
+        @media screen and(max-width: $break-mobile){
+            height: 150px;
+            padding-top: 20px;
+            margin-top: 50px;
+        }
+        
+        .more-info-p{
+            font-family: montserrat;
+            font-size: 1em;
+            color: #000;
+            max-width: 20%;
+            margin: 0 auto;
+            text-align: center;
+            @media screen and(max-width: $break-mobile){
+                max-width: 80%;
+                font-size: 0.8em;
+                
+            }
+        }
+        
+        .blog-icon{
+            display: flex;
+            pointer-events: all;
+            width: 80px;
+            margin: 50 auto;
+            @media screen and(max-width: $break-mobile){
+                width: 40px;
+                margin: 30 auto;
+            }
+        }
+        
+        .blog-icon2{
+            position: relative;
+            pointer-events: all;
+            width: 80px;
+            margin: 60 auto;
+            @media screen and(max-width: $break-mobile){
+                width: 40px;
+                margin: 30 auto;
+            }
+        }
+        
+    }
+    
+}

@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import 'variables';
+@import 'menu';   
+
+
+body{
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
+    background-color: $blue-light;
+    //background-image:  url(../images/fabric.png);
+    overflow-x: hidden;
+    
+    //load screen
+    /*#load-screen{
+        background: #000;
+        width: 100vw;
+        height: 100vh;
+        z-index: 80;
+        position: fixed;
+        
+        #loading{
+            position: relative;
+            color: white;
+            text-align: center;
+            top: 50%;
+        }
+        
+    }*/
+    
+    .hello-face{
+        background-image: url(../images/bg.jpg);
+        background-size: cover;
+        background-attachment: fixed;
+        //position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        //margin: 0 auto;
+        height: 100vh;
+        width: 100%;
+        //margin: 0% 5%;
+        //box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+        padding: 0;
+        //margin: 0;
+        @media screen and (max-width: $break-mobile){
+            flex-direction: column;
+            min-height: 100vh;
+            margin: 0;
+            height: auto;
+        }
+        
+        .face{
+            padding-right: 100px;
+            max-width: 15%;
+            //height: 430px;
+            animation-duration: 1.2s;
+            animation-delay: 0.5s;
+            flex: 1;
+            @media screen and (max-width: $break-mobile){
+                padding-right: 0px;
+                max-width: 100%;
+                width: 190px;
+                max-height: 290px;
+                //position: relative;
+                margin: 70px 0% 10% 0%;
+            }
+            
+            
+            
+        }
+        
+        a{
+            text-decoration: none;
+        }
+        
+        .hello{
+            animation-delay: 1s;
+            flex: 1;
+            font-family: 'Montserrat', sans-serif;
+            font-size: 2.5em;
+            text-decoration: none;
+            //position: relative;
+            color: #fff;
+            //max-width: 65%;
+            //left: 43%;
+            border: 10px solid #fff;
+            padding: 40px;
+            border-radius: 20px;
+            //top: 37%;
+            box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+            @media screen and (max-width: $break-ipad){
+                font-size: 1.5em;
+                border: 5px solid #fff;
+                //padding: 
+                //width: 70%;
+            }
+            @media screen and (max-width: $break-mobile){
+                font-size: 1.5em;
+                max-width: 40%;
+                margin: 0% 10%;
+                margin: 0 auto;
+                margin-bottom: 10%;
+                border: 7px solid #fff;
+            }
+            
+        }
+        
+    }
+    
+    .intro{
+        //background-color: $orange;
+        min-height: 67vh;
+        height: auto;
+        width: 100vw;
+        position: relative;
+        padding-top: 100px;
+        padding-bottom: 100px;
+        z-index: -1;
+        @media screen and (max-width: $break-mobile){
+            min-height: auto;
+        }
+        
+            .intro-title{
+                text-align: center;
+                width: 100%;
+                position: relative;
+                font-family: montserrat;
+                font-size: 3em;
+                color: #fff;
+                padding-bottom: 70px;
+                max-width: 70%;
+                margin: 0 auto;
+                @media screen and (max-width: $break-mobile){
+                    font-size: 2em;
+                }
+            }
+
+            .intro-text{
+                text-align: center;
+                //position: relative;
+                font-family: montserrat;
+                font-size: 2em;
+                color: #fff;
+                width: 30%;
+                padding: 80px;
+                margin: 0 auto;
+                background-color: $blue-dark;
+                border-radius: 7px;
+                height: auto;
+                box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22); 
+                    @media screen and (max-width: $break-mobile){
+                        font-size: 1.3em;
+                        padding: 50px;
+                        width: 50%;
+                    }
+
+            }
+        
+    }
+            
+}
+        
+    

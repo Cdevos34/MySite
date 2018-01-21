@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import 'variables';
+@import 'menu';
+
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(../images/fabric.png);
+    
+    .skill-title{
+        font-family: montserrat;
+        font-size: 5em;
+        text-align: center;
+        padding-top: 200px;
+    }
+    
+    .skill-row1{
+            //margin-top: 500px;
+        }
+    
+    .skill-row2{
+        padding-top: 50px;
+        
+    }
+    
+    .content-wrapper{
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        max-width: 50%;
+        margin: 0 auto;
+        @media screen and (max-width: $break-mobile){
+            flex-direction: column;
+            max-width: 100%;
+            padding: 0px;
+        }
+        
+        .html-skill{
+            height: 120px;
+            @media screen and (max-width: $break-mobile){
+                width: 60%;
+                height: auto;
+                margin: 0 auto;
+            }
+        }
+        
+    }
+    
+}
+        
+    

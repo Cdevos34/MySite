@@ -1,0 +1,218 @@
+@import 'variables';
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+body{
+    margin: 0;
+    padding: 0;
+    
+        
+        .home{
+        position: fixed;
+        width: 35px;
+        top: 8px;
+        left: 35px;
+        z-index: 6;
+            @media screen and (max-width: $break-menu){
+                display: none; 
+            }
+    }    
+        
+    
+    header{
+        
+        
+        .wrapper{
+            
+            .navigation{
+                //background-image: url(../images/fabric.png);
+                background-color: #fff;
+                z-index: 5;
+                width: 100%;
+                height: 70px;
+                position: fixed;
+                box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+                @media screen and (max-width: $break-menu){
+                    display: none;
+                }
+            }
+            
+            .mobile-navbar{
+                @media screen and(max-width: $break-menu){
+                    height: 100%;  
+                    width: 60%;
+                    left: 40%;
+                    z-index: 10;
+                    background-image: url(../images/fabric.png)
+                }
+            }
+            
+            .mobile-navbar-ul{
+                    @media screen and (max-width: $break-menu){
+                        display: inline-block;
+                        width: 100px;
+                        top: 14%;
+                        font-size: 0.7em;
+                        height: 80%;
+                        width: 25%;
+                        left: 50%;
+                        margin: 0px;
+                        padding: 0px;
+                    }
+                }
+            
+            ul{
+                z-index: 2;
+                position: fixed;
+                display: inline-block;
+                width: 720px;
+                top: 7px;
+                right: 100px;
+                @media screen and (max-width: $break-menu){
+                    display: none;
+                }
+                
+                .home-menu-item{
+                    color: $orange;
+                }
+                
+                .about-me-menu-item{
+                    color: $orange;
+                }
+                
+                .projects-menu-item{
+                    color: $orange;
+                }
+                
+                .skills-menu-item{
+                    color: $orange;
+                }
+                
+                a{
+                    color: #000;
+                    text-decoration: none;
+                }
+                
+                    li{
+                        color: #000;
+                        display: inline-block;
+                        padding-right: 15%;
+                        font-size: 1em;
+                        font-weight: 900;
+                        font-family: 'Montserrat', sans-serif;
+                        transition: 0.5s;
+                        @media screen and (max-width: $break-menu){
+                            padding: 30px 0px;
+                            //width: 2%;
+                            //background-color: red;
+                            font-size: 1.8em;
+                            border-bottom: 2px solid #000;
+                        }
+                        &:hover{
+                            text-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+                            }
+                        }
+                    
+                
+                }
+                
+            .navigation-icons{
+                        
+                    ul{
+                        width: 52px;
+                        display: none;
+                        top: 6%;
+                        right: 2%;
+                        @media screen and (max-width: $break-menu){
+                            z-index: 5;
+                            width: 40%;
+                            top: 75%;
+                            right: 10%;
+                            z-index: 12;
+                            //background-color: red;
+                        }
+                        
+                        .icon{
+                            width: 42px;
+                            padding-top: 80px;
+                            height: 42px;
+                            @media screen and (max-width: $break-mobile){
+                                //display: none;
+                                margin: 7px;
+                                width: 35px;
+                                height: 35px;
+                                padding: 0px;
+                                z-index: 12;
+                            }
+                        }
+                    }
+                }
+            
+            .close{
+                
+                .line1{
+                    transform: rotate(45deg);
+                    top: 57%!important;
+                    
+                    
+                }
+        
+                .line2{
+                    
+                }
+                
+                .line3{
+                    transform: rotate(-405deg);
+                    top: 57%!important;
+                    
+                }
+                
+            }
+            
+            .main-item{
+                z-index: 11;
+                width: 40px;
+                height: 40px;
+                position: fixed;
+                right: 2.5%;
+                top: 5.8px;
+                @media screen and (max-width: $break-menu){
+                    right: 5%;                
+                    }
+                
+                
+                
+                .line{
+                    height: 6px;
+                    width: 100%;
+                    background: #000;
+                    position: absolute;
+                    border-radius: 50px;
+                    transition: all ease 0.3s;
+                    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+                    @media screen and (max-width: $break-menu){
+                        background: #fff;
+                    }
+                    
+                    }
+                
+                    .line1{
+                        top: 30%;
+                    }
+                    
+                    .line2{
+                        top: 60%;
+                    }
+                    
+                    .line3{
+                        top: 90%;
+                    }
+                
+                
+                }
+            
+                    
+                }
+                
+            }
+            
+        }
