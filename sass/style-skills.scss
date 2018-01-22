@@ -34,6 +34,7 @@ body{
     
     .skill-title{
         font-family: montserrat;
+        animation-delay: 0.5s;
         font-size: 5em;
         color: #fff;
         text-align: center;
@@ -71,6 +72,7 @@ body{
         }
         
         .skill-bar{
+            animation-delay: 1s;
             height: 120px;
             @media screen and (max-width: $break-laptop){
                 height: 100px;
