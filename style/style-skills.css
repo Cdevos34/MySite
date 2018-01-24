@@ -153,9 +153,6 @@ body {
     z-index: -1;
     height: 220px;
     background-color: #9975b9; }
-    @media screen and (max-width: 768px) {
-      body .slanted-div1 {
-        height: 100px; } }
     body .slanted-div1:after {
       position: absolute;
       width: 100%;
@@ -180,10 +177,6 @@ body {
     color: #fff;
     text-align: center;
     padding-top: 100px; }
-    @media screen and (max-width: 1024px) {
-      body .skill-title {
-        padding-top: 0px;
-        font-size: 4em; } }
   body .skill-row2 {
     padding-top: 50px; }
   body .skill-row3 {
@@ -212,7 +205,7 @@ body {
       height: 120px; }
       @media screen and (max-width: 1024px) {
         body .content-wrapper .skill-bar {
-          height: 100px; } }
+          height: 90px; } }
       @media screen and (max-width: 768px) {
         body .content-wrapper .skill-bar {
           width: 60%;

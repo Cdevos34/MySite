@@ -148,7 +148,6 @@ body {
   body .banner {
     background-image: url(/images/gamble.jpg);
     background-size: cover;
-    background-position: center;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;

@@ -148,7 +148,6 @@ body {
   body .banner-parallax {
     background-image: url(/images/rasp.jpg);
     background-size: cover;
-    background-position: center;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
