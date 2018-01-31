@@ -11,6 +11,10 @@ body {
     top: 8px;
     left: 35px;
     z-index: 6; }
+    @media screen and (max-width: 1440px) {
+      body .home {
+        width: 27px;
+        top: 5px; } }
     @media screen and (max-width: 940px) {
       body .home {
         display: none; } }
@@ -22,6 +26,9 @@ body {
     position: fixed;
     -webkit-box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
     box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23); }
+    @media screen and (max-width: 1440px) {
+      body header .wrapper .navigation {
+        height: 50px; } }
     @media screen and (max-width: 940px) {
       body header .wrapper .navigation {
         display: none; } }
@@ -50,17 +57,20 @@ body {
     width: 720px;
     top: 7px;
     right: 100px; }
+    @media screen and (max-width: 1440px) {
+      body header .wrapper ul {
+        top: -2px; } }
     @media screen and (max-width: 940px) {
       body header .wrapper ul {
         display: none; } }
     body header .wrapper ul .home-menu-item {
-      color: #ffc966; }
+      color: #ddd; }
     body header .wrapper ul .about-me-menu-item {
-      color: #ffc966; }
+      color: #ddd; }
     body header .wrapper ul .projects-menu-item {
-      color: #ffc966; }
+      color: #ddd; }
     body header .wrapper ul .skills-menu-item {
-      color: #ffc966; }
+      color: #ddd; }
     body header .wrapper ul a {
       color: #000;
       text-decoration: none; }
@@ -121,6 +131,10 @@ body {
     position: fixed;
     right: 2.5%;
     top: 5.8px; }
+    @media screen and (max-width: 1440px) {
+      body header .wrapper .main-item {
+        width: 35px;
+        height: 30px; } }
     @media screen and (max-width: 940px) {
       body header .wrapper .main-item {
         right: 5%; } }
@@ -135,6 +149,9 @@ body {
       transition: all ease 0.3s;
       -webkit-box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
       box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23); }
+      @media screen and (max-width: 1440px) {
+        body header .wrapper .main-item .line {
+          height: 5px; } }
       @media screen and (max-width: 940px) {
         body header .wrapper .main-item .line {
           background: #fff; } }
@@ -159,12 +176,16 @@ body {
     z-index: 5;
     margin-left: 50px;
     display: -webkit-box;
+    display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
+    -webkit-flex-wrap: wrap;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
+    -webkit-align-content: center;
     -ms-flex-line-pack: center;
     align-content: center;
+    -webkit-align-self: center;
     -ms-flex-item-align: center;
     align-self: center;
     pointer-events: none;
@@ -228,7 +249,7 @@ body {
         letter-spacing: 10px;
         font-size: 8em;
         text-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23); }
-        @media screen and (max-width: 1024px) {
+        @media screen and (max-width: 1440px) {
           body .project-img1 .project-info-wrapper1 .first-project-title {
             font-size: 5em; } }
         @media screen and (max-width: 768px) {
@@ -252,7 +273,7 @@ body {
         text-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
         position: relative;
         padding-top: 0px; }
-        @media screen and (max-width: 1024px) {
+        @media screen and (max-width: 1440px) {
           body .project-img1 .project-info-wrapper1 .sub1 {
             font-size: 20px; } }
         @media screen and (max-width: 768px) {
@@ -282,7 +303,7 @@ body {
         body .project-img1 .project-info-wrapper1 .project-btn1:hover {
           background-color: rgba(123, 32, 180, 0.5);
           color: #fff; }
-        @media screen and (max-width: 1024px) {
+        @media screen and (max-width: 1440px) {
           body .project-img1 .project-info-wrapper1 .project-btn1 {
             height: 40px;
             width: 180px; } }
@@ -332,7 +353,7 @@ body {
         letter-spacing: 10px;
         font-size: 8em;
         text-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23); }
-        @media screen and (max-width: 1024px) {
+        @media screen and (max-width: 1440px) {
           body .project-img2 .project-info-wrapper2 .second-project-title {
             font-size: 5em; } }
         @media screen and (max-width: 768px) {
@@ -356,7 +377,7 @@ body {
         text-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
         position: relative;
         padding-top: 0px; }
-        @media screen and (max-width: 1024px) {
+        @media screen and (max-width: 1440px) {
           body .project-img2 .project-info-wrapper2 .sub2 {
             font-size: 20px; } }
         @media screen and (max-width: 768px) {
@@ -385,7 +406,7 @@ body {
         body .project-img2 .project-info-wrapper2 .project-btn2:hover {
           background-color: rgba(255, 0, 0, 0.5);
           color: #fff; }
-        @media screen and (max-width: 1024px) {
+        @media screen and (max-width: 1440px) {
           body .project-img2 .project-info-wrapper2 .project-btn2 {
             width: 180px;
             height: 40px; } }
@@ -435,7 +456,7 @@ body {
         letter-spacing: 10px;
         font-size: 8em;
         text-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23); }
-        @media screen and (max-width: 1024px) {
+        @media screen and (max-width: 1440px) {
           body .project-img3 .project-info-wrapper3 .third-project-title {
             font-size: 5em; } }
         @media screen and (max-width: 768px) {
@@ -459,7 +480,7 @@ body {
         text-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
         position: relative;
         padding-top: 0px; }
-        @media screen and (max-width: 1024px) {
+        @media screen and (max-width: 1440px) {
           body .project-img3 .project-info-wrapper3 .sub3 {
             font-size: 20px; } }
         @media screen and (max-width: 768px) {
@@ -488,7 +509,7 @@ body {
         body .project-img3 .project-info-wrapper3 .project-btn3:hover {
           background-color: rgba(0, 0, 255, 0.5);
           color: #fff; }
-        @media screen and (max-width: 1024px) {
+        @media screen and (max-width: 1440px) {
           body .project-img3 .project-info-wrapper3 .project-btn3 {
             height: 40px;
             width: 180px; } }
@@ -538,7 +559,7 @@ body {
         letter-spacing: 10px;
         font-size: 8em;
         text-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23); }
-        @media screen and (max-width: 1024px) {
+        @media screen and (max-width: 1440px) {
           body .project-img4 .project-info-wrapper4 .fourth-project-title {
             font-size: 5em; } }
         @media screen and (max-width: 768px) {
@@ -562,7 +583,7 @@ body {
         text-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
         position: relative;
         padding-top: 0px; }
-        @media screen and (max-width: 1024px) {
+        @media screen and (max-width: 1440px) {
           body .project-img4 .project-info-wrapper4 .sub4 {
             font-size: 20px; } }
         @media screen and (max-width: 768px) {
@@ -591,7 +612,7 @@ body {
         body .project-img4 .project-info-wrapper4 .project-btn4:hover {
           background-color: rgba(100, 255, 0, 0.5);
           color: #fff; }
-        @media screen and (max-width: 1024px) {
+        @media screen and (max-width: 1440px) {
           body .project-img4 .project-info-wrapper4 .project-btn4 {
             width: 180px;
             height: 40px; } }

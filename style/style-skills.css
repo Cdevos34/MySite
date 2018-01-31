@@ -9,6 +9,10 @@ body {
     top: 8px;
     left: 35px;
     z-index: 6; }
+    @media screen and (max-width: 1440px) {
+      body .home {
+        width: 27px;
+        top: 5px; } }
     @media screen and (max-width: 940px) {
       body .home {
         display: none; } }
@@ -20,6 +24,9 @@ body {
     position: fixed;
     -webkit-box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
     box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23); }
+    @media screen and (max-width: 1440px) {
+      body header .wrapper .navigation {
+        height: 50px; } }
     @media screen and (max-width: 940px) {
       body header .wrapper .navigation {
         display: none; } }
@@ -48,17 +55,20 @@ body {
     width: 720px;
     top: 7px;
     right: 100px; }
+    @media screen and (max-width: 1440px) {
+      body header .wrapper ul {
+        top: -2px; } }
     @media screen and (max-width: 940px) {
       body header .wrapper ul {
         display: none; } }
     body header .wrapper ul .home-menu-item {
-      color: #ffc966; }
+      color: #ddd; }
     body header .wrapper ul .about-me-menu-item {
-      color: #ffc966; }
+      color: #ddd; }
     body header .wrapper ul .projects-menu-item {
-      color: #ffc966; }
+      color: #ddd; }
     body header .wrapper ul .skills-menu-item {
-      color: #ffc966; }
+      color: #ddd; }
     body header .wrapper ul a {
       color: #000;
       text-decoration: none; }
@@ -119,6 +129,10 @@ body {
     position: fixed;
     right: 2.5%;
     top: 5.8px; }
+    @media screen and (max-width: 1440px) {
+      body header .wrapper .main-item {
+        width: 35px;
+        height: 30px; } }
     @media screen and (max-width: 940px) {
       body header .wrapper .main-item {
         right: 5%; } }
@@ -133,6 +147,9 @@ body {
       transition: all ease 0.3s;
       -webkit-box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
       box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23); }
+      @media screen and (max-width: 1440px) {
+        body header .wrapper .main-item .line {
+          height: 5px; } }
       @media screen and (max-width: 940px) {
         body header .wrapper .main-item .line {
           background: #fff; } }
@@ -153,6 +170,9 @@ body {
     z-index: -1;
     height: 220px;
     background-color: #9975b9; }
+    @media screen and (max-width: 1440px) {
+      body .slanted-div1 {
+        height: 120px; } }
     body .slanted-div1:after {
       position: absolute;
       width: 100%;
@@ -177,6 +197,18 @@ body {
     color: #fff;
     text-align: center;
     padding-top: 100px; }
+    @media screen and (max-width: 1440px) {
+      body .skill-title {
+        padding-top: 50px;
+        font-size: 4em; } }
+  body .skills-text {
+    font-size: 1em;
+    margin: 0 auto;
+    font-family: montserrat;
+    color: #fff;
+    text-align: center;
+    max-width: 40%;
+    margin-bottom: 20px; }
   body .skill-row2 {
     padding-top: 50px; }
   body .skill-row3 {
@@ -184,9 +216,11 @@ body {
   body .content-wrapper {
     text-align: center;
     display: -webkit-box;
+    display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
     -webkit-box-pack: center;
+    -webkit-justify-content: center;
     -ms-flex-pack: center;
     justify-content: center;
     max-width: 50%;
@@ -195,6 +229,7 @@ body {
       body .content-wrapper {
         -webkit-box-orient: vertical;
         -webkit-box-direction: normal;
+        -webkit-flex-direction: column;
         -ms-flex-direction: column;
         flex-direction: column;
         max-width: 100%;
@@ -203,7 +238,7 @@ body {
       -webkit-animation-delay: 1s;
       animation-delay: 1s;
       height: 120px; }
-      @media screen and (max-width: 1024px) {
+      @media screen and (max-width: 1440px) {
         body .content-wrapper .skill-bar {
           height: 90px; } }
       @media screen and (max-width: 768px) {

@@ -12,8 +12,12 @@ body{
         top: 8px;
         left: 35px;
         z-index: 6;
-            @media screen and (max-width: $break-menu){
-                display: none; 
+        @media screen and (max-width: $break-laptop){
+            width: 27px;
+            top: 5px;
+            }
+        @media screen and (max-width: $break-menu){
+            display: none; 
             }
     }    
         
@@ -31,6 +35,9 @@ body{
                 height: 70px;
                 position: fixed;
                 box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+                @media screen and (max-width: $break-laptop){
+                    height: 50px;
+                }
                 @media screen and (max-width: $break-menu){
                     display: none;
                 }
@@ -67,24 +74,27 @@ body{
                 width: 720px;
                 top: 7px;
                 right: 100px;
+                @media screen and (max-width: $break-laptop){
+                    top: -2px;
+                }
                 @media screen and (max-width: $break-menu){
                     display: none;
                 }
                 
                 .home-menu-item{
-                    color: $orange;
+                    color: #ddd;
                 }
                 
                 .about-me-menu-item{
-                    color: $orange;
+                    color: #ddd;
                 }
                 
                 .projects-menu-item{
-                    color: $orange;
+                    color: #ddd;
                 }
                 
                 .skills-menu-item{
-                    color: $orange;
+                    color: #ddd;
                 }
                 
                 a{
@@ -175,6 +185,10 @@ body{
                 position: fixed;
                 right: 2.5%;
                 top: 5.8px;
+                @media screen and (max-width: $break-laptop){
+                    width: 35px;
+                    height: 30px;
+                }
                 @media screen and (max-width: $break-menu){
                     right: 5%;                
                     }
@@ -189,10 +203,12 @@ body{
                     border-radius: 50px;
                     transition: all ease 0.3s;
                     box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+                    @media screen and (max-width: $break-laptop){
+                        height: 5px;
+                        }
                     @media screen and (max-width: $break-menu){
                         background: #fff;
-                    }
-                    
+                        }
                     }
                 
                     .line1{
