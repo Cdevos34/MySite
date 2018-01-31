@@ -65,7 +65,7 @@ body{
                         max-width: 70%;
                         border: none;
                         margin-left: 0px;
-                        text-align: center;
+                        text-align: left;
                         background-color: rgba(0,0,0,0);
                         box-shadow: none;
                         color: #fff;
@@ -104,16 +104,16 @@ body{
         
         .abilities{
             //border-top: 5px solid #fff;
-            margin:50 auto;
+            margin:0 auto;
             text-align: center;
-            padding: 10%;
             //max-width: 50%;
             background-color: $blue-medium;
             font-family: montserrat;
-            font-size: 2em;
+            font-size: 1.5em;
             color: #fff;
-            width: 80%;
+            width: 60%;
             margin: 0 auto;
+            padding: 2% 20%;
             //margin-top: 150px;
             //border-top-right-radius: 50px;
             //border-top-left-radius: 50px;
@@ -126,7 +126,6 @@ body{
         
         
         .block-row1{
-            margin: 0;
             text-align: center;
             display: flex;
             //justify-content: flex-end;
@@ -135,11 +134,11 @@ body{
             background-color: $blue-medium;
             height: 40vh;
             margin: 0 auto;
-            //margin-bottom: 0.5%;
+            padding-top: 2%;
             @media screen and (max-width: $break-mobile){
                 flex-direction: column;
                 width: 100%;
-                padding: 0;
+                padding: 5% 0px;
                 margin: 0;
                 height: 100vh;
                 background-color: $blue-medium;
@@ -358,27 +357,57 @@ body{
         
         .text-block{
             background-color: $blue-medium;
-            margin: 0px;
-            padding: 50px 0px;
+            padding: 100px 0px 0px 0px;
             text-align: left;
+            display: flex;
+            margin: 0 auto;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            @media screen and (max-width: $break-mobile){
+                    padding: 30px 0px;
+                    }
             
             .abilities-text{
-                font-size: 1.5em;
+                display: flex;
+                font-size: 1.2em;
                 font-family: montserrat;
                 color: #fff;
-                max-width: 40%;
-                margin: 0 auto;
+                width: 30%;
+                //margin: 0 auto;
                 text-align: left;
                 background-color: $blue-medium;
-                @media screen and (max-width: $break-laptop){
-                    font-size: 1.2em;
-                    max-width: 60%;
-                    }
                 @media screen and (max-width: $break-mobile){
-                    max-width: 90%;
-                    font-size: 1.2em;
-                }
-            }   
+                    width: 80%;
+                    flex-wrap: wrap;
+                    }
+                }   
+            
+            .design-icon{
+                margin: 0px 50px 0px 0px;
+                //display: flex;
+                width: 128px;
+                height:128px;
+                @media screen and (max-width: $break-mobile){
+                    flex-wrap: nowrap;
+                    margin: 30px;
+                    width: 94px;
+                    height: 94px;
+                    }
+            }
+            
+            .technical-icon{
+                margin: 0px 100px 0px 50px;
+                //display: flex;
+                width: 128px;
+                height:128px;
+                @media screen and (max-width: $break-mobile){
+                    flex-wrap: nowrap;
+                    margin: 30px;
+                    width: 94px;
+                    height: 94px;
+                    }
+            }
         }
         
         .slanted-div1{
@@ -410,23 +439,43 @@ body{
             margin:0 auto;
             text-align: center;
             width: 100%;
-            padding-top: 200px;
-            padding-bottom: 50px;
+            padding-top: 180px;
+            padding-bottom: 0px;
             //max-width: 50%;
             background-image: url(../images/fabric.png);
             background-color: $blue-medium;
             font-family: montserrat;
-            font-size: 4.5em;
-            color: #fff;
+            font-size: 3em;
+            color: #000;
             margin: 0 auto;
             //margin-top: 150px;
             //border-top-right-radius: 50px;
             //border-top-left-radius: 50px;
-            //box-shadow: 0 124px 28px rgba(0,0,0,0.25), 0 0px 100px rgba(0,0,0,0.50);
+            //text-shadow: 0 0px 10px rgba(0,0,0,0.2);
             @media screen and (max-width: $break-mobile){
                 font-size: 2em;
                 background-color: #9999ff;
-                padding: 50px 0px;
+                padding: 100px 0px 0px;
+                }
+            }
+        
+        .hobbies-text{
+            font-size: 1.2em;
+            font-family: montserrat;
+            color: #000;
+            max-width: 30%;
+            margin: 0 auto;
+            text-align: left;
+            padding: 40px 35%;
+            background-image: url(../images/fabric.png);
+            @media screen and (max-width: $break-laptop){
+                font-size: 1.2em;
+                max-width: 60%;
+                }
+            @media screen and (max-width: $break-mobile){
+                max-width: 80%;
+                padding: 40px 10%;
+                font-size: 1.2em;
             }
         }
     
@@ -443,6 +492,7 @@ body{
             height: 40vh;
             margin: 0 auto;
             padding-bottom: 150px;
+            padding-top: 50px;
             //box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
             @media screen and (max-width: $break-mobile){
                 flex-direction: column;
@@ -481,11 +531,11 @@ body{
                 
                 .qoute5{
                     font-weight: 800;
-                    max-width: 80%;
+                    max-width: 50%;
                     margin: 0 auto;
                     color: #000;
                     text-align: center;
-                    font-size: 1em;
+                    font-size: 1.2em;
                     background-color: #fff;
                     padding: 20px;
                     box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
@@ -521,11 +571,11 @@ body{
                 
                 .qoute6{
                     font-weight: 800;
-                    max-width: 80%;
+                    max-width: 50%;
                     margin: 0 auto;
                     color: #000;
                     text-align: center;
-                    font-size: 1em;
+                    font-size: 1.2em;
                     background-color: #fff;
                     padding: 20px;
                     box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
@@ -539,7 +589,7 @@ body{
             position: relative;
             background-image: url(../images/fabric.png);
             width: 100%;
-            height: 200px;
+            height: 150px;
             margin-bottom: 300px;
             z-index: -1;
             background-color: $blue-medium;

@@ -179,22 +179,18 @@ body {
       min-height: 100vh;
       font-family: 'Montserrat', sans-serif;
       display: -webkit-box;
-      display: -webkit-flex;
       display: -ms-flexbox;
       display: flex;
       -webkit-box-pack: center;
-      -webkit-justify-content: center;
       -ms-flex-pack: center;
       justify-content: center;
       -webkit-box-align: center;
-      -webkit-align-items: center;
       -ms-flex-align: center;
       align-items: center; }
       @media screen and (max-width: 768px) {
         body .content-wrapper .introduction-section {
           -webkit-box-orient: vertical;
           -webkit-box-direction: normal;
-          -webkit-flex-direction: column;
           -ms-flex-direction: column;
           flex-direction: column;
           padding-top: 100px;
@@ -225,7 +221,7 @@ body {
             max-width: 70%;
             border: none;
             margin-left: 0px;
-            text-align: center;
+            text-align: left;
             background-color: transparent;
             -webkit-box-shadow: none;
             box-shadow: none;
@@ -249,40 +245,38 @@ body {
             padding-left: 90px;
             height: 70%; } }
     body .content-wrapper .abilities {
-      margin: 50 auto;
+      margin: 0 auto;
       text-align: center;
-      padding: 10%;
       background-color: #9999ff;
       font-family: montserrat;
-      font-size: 2em;
+      font-size: 1.5em;
       color: #fff;
-      width: 80%;
-      margin: 0 auto; }
+      width: 60%;
+      margin: 0 auto;
+      padding: 2% 20%; }
       @media screen and (max-width: 768px) {
         body .content-wrapper .abilities {
           font-size: 1.5em;
           padding: 10%; } }
     body .content-wrapper .block-row1 {
-      margin: 0;
       text-align: center;
       display: -webkit-box;
-      display: -webkit-flex;
       display: -ms-flexbox;
       display: flex;
       width: 90%;
       padding: 0% 5%;
       background-color: #9999ff;
       height: 40vh;
-      margin: 0 auto; }
+      margin: 0 auto;
+      padding-top: 2%; }
       @media screen and (max-width: 768px) {
         body .content-wrapper .block-row1 {
           -webkit-box-orient: vertical;
           -webkit-box-direction: normal;
-          -webkit-flex-direction: column;
           -ms-flex-direction: column;
           flex-direction: column;
           width: 100%;
-          padding: 0;
+          padding: 5% 0px;
           margin: 0;
           height: 100vh;
           background-color: #9999ff; } }
@@ -293,25 +287,20 @@ body {
         font-family: montserrat, sans-serif;
         padding: 50px;
         -webkit-box-flex: 1;
-        -webkit-flex: 1;
         -ms-flex: 1;
         flex: 1;
         height: 40vh;
         min-height: 40vh;
         display: -webkit-box;
-        display: -webkit-flex;
         display: -ms-flexbox;
         display: flex;
         -webkit-box-orient: vertical;
         -webkit-box-direction: normal;
-        -webkit-flex-direction: column;
         -ms-flex-direction: column;
         flex-direction: column;
         -webkit-box-pack: center;
-        -webkit-justify-content: center;
         -ms-flex-pack: center;
         justify-content: center;
-        -webkit-align-content: center;
         -ms-flex-line-pack: center;
         align-content: center; }
         @media screen and (max-width: 768px) {
@@ -347,24 +336,19 @@ body {
         margin-top: 0px;
         padding: 50px;
         -webkit-box-flex: 1;
-        -webkit-flex: 1;
         -ms-flex: 1;
         flex: 1;
         height: 31vh;
         display: -webkit-box;
-        display: -webkit-flex;
         display: -ms-flexbox;
         display: flex;
         -webkit-box-orient: vertical;
         -webkit-box-direction: normal;
-        -webkit-flex-direction: column;
         -ms-flex-direction: column;
         flex-direction: column;
         -webkit-box-pack: center;
-        -webkit-justify-content: center;
         -ms-flex-pack: center;
         justify-content: center;
-        -webkit-align-content: center;
         -ms-flex-line-pack: center;
         align-content: center; }
         @media screen and (max-width: 768px) {
@@ -400,11 +384,9 @@ body {
       background-color: #7f7fff;
       text-align: center;
       display: -webkit-box;
-      display: -webkit-flex;
       display: -ms-flexbox;
       display: flex;
       -webkit-box-pack: end;
-      -webkit-justify-content: flex-end;
       -ms-flex-pack: end;
       justify-content: flex-end;
       width: 90%;
@@ -416,7 +398,6 @@ body {
         body .content-wrapper .block-row2 {
           -webkit-box-orient: vertical;
           -webkit-box-direction: normal;
-          -webkit-flex-direction: column;
           -ms-flex-direction: column;
           flex-direction: column;
           width: 100%;
@@ -432,23 +413,18 @@ body {
         margin-top: 0px;
         padding: 50px;
         -webkit-box-flex: 1;
-        -webkit-flex: 1;
         -ms-flex: 1;
         flex: 1;
         display: -webkit-box;
-        display: -webkit-flex;
         display: -ms-flexbox;
         display: flex;
         -webkit-box-orient: vertical;
         -webkit-box-direction: normal;
-        -webkit-flex-direction: column;
         -ms-flex-direction: column;
         flex-direction: column;
         -webkit-box-pack: center;
-        -webkit-justify-content: center;
         -ms-flex-pack: center;
         justify-content: center;
-        -webkit-align-content: center;
         -ms-flex-line-pack: center;
         align-content: center; }
         @media screen and (max-width: 768px) {
@@ -486,23 +462,18 @@ body {
         margin-top: 0px;
         padding: 50px;
         -webkit-box-flex: 1;
-        -webkit-flex: 1;
         -ms-flex: 1;
         flex: 1;
         display: -webkit-box;
-        display: -webkit-flex;
         display: -ms-flexbox;
         display: flex;
         -webkit-box-orient: vertical;
         -webkit-box-direction: normal;
-        -webkit-flex-direction: column;
         -ms-flex-direction: column;
         flex-direction: column;
         -webkit-box-pack: center;
-        -webkit-justify-content: center;
         -ms-flex-pack: center;
         justify-content: center;
-        -webkit-align-content: center;
         -ms-flex-line-pack: center;
         align-content: center; }
         @media screen and (max-width: 768px) {
@@ -533,25 +504,60 @@ body {
             max-width: 50%; } }
     body .content-wrapper .text-block {
       background-color: #9999ff;
-      margin: 0px;
-      padding: 50px 0px;
-      text-align: left; }
+      padding: 100px 0px 0px 0px;
+      text-align: left;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      margin: 0 auto;
+      -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center; }
+      @media screen and (max-width: 768px) {
+        body .content-wrapper .text-block {
+          padding: 30px 0px; } }
       body .content-wrapper .text-block .abilities-text {
-        font-size: 1.5em;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        font-size: 1.2em;
         font-family: montserrat;
         color: #fff;
-        max-width: 40%;
-        margin: 0 auto;
+        width: 30%;
         text-align: left;
         background-color: #9999ff; }
-        @media screen and (max-width: 1440px) {
-          body .content-wrapper .text-block .abilities-text {
-            font-size: 1.2em;
-            max-width: 60%; } }
         @media screen and (max-width: 768px) {
           body .content-wrapper .text-block .abilities-text {
-            max-width: 90%;
-            font-size: 1.2em; } }
+            width: 80%;
+            -ms-flex-wrap: wrap;
+            flex-wrap: wrap; } }
+      body .content-wrapper .text-block .design-icon {
+        margin: 0px 50px 0px 0px;
+        width: 128px;
+        height: 128px; }
+        @media screen and (max-width: 768px) {
+          body .content-wrapper .text-block .design-icon {
+            -ms-flex-wrap: nowrap;
+            flex-wrap: nowrap;
+            margin: 30px;
+            width: 94px;
+            height: 94px; } }
+      body .content-wrapper .text-block .technical-icon {
+        margin: 0px 100px 0px 50px;
+        width: 128px;
+        height: 128px; }
+        @media screen and (max-width: 768px) {
+          body .content-wrapper .text-block .technical-icon {
+            -ms-flex-wrap: nowrap;
+            flex-wrap: nowrap;
+            margin: 30px;
+            width: 94px;
+            height: 94px; } }
     body .content-wrapper .slanted-div1 {
       position: relative;
       width: 100%;
@@ -580,27 +586,43 @@ body {
       margin: 0 auto;
       text-align: center;
       width: 100%;
-      padding-top: 200px;
-      padding-bottom: 50px;
+      padding-top: 180px;
+      padding-bottom: 0px;
       background-image: url(../images/fabric.png);
       background-color: #9999ff;
       font-family: montserrat;
-      font-size: 4.5em;
-      color: #fff;
+      font-size: 3em;
+      color: #000;
       margin: 0 auto; }
       @media screen and (max-width: 768px) {
         body .content-wrapper .fun-facts-title {
           font-size: 2em;
           background-color: #9999ff;
-          padding: 50px 0px; } }
+          padding: 100px 0px 0px; } }
+    body .content-wrapper .hobbies-text {
+      font-size: 1.2em;
+      font-family: montserrat;
+      color: #000;
+      max-width: 30%;
+      margin: 0 auto;
+      text-align: left;
+      padding: 40px 35%;
+      background-image: url(../images/fabric.png); }
+      @media screen and (max-width: 1440px) {
+        body .content-wrapper .hobbies-text {
+          font-size: 1.2em;
+          max-width: 60%; } }
+      @media screen and (max-width: 768px) {
+        body .content-wrapper .hobbies-text {
+          max-width: 80%;
+          padding: 40px 10%;
+          font-size: 1.2em; } }
     body .content-wrapper .fun-fact-block-wrapper {
       text-align: center;
       display: -webkit-box;
-      display: -webkit-flex;
       display: -ms-flexbox;
       display: flex;
       -webkit-box-pack: end;
-      -webkit-justify-content: flex-end;
       -ms-flex-pack: end;
       justify-content: flex-end;
       background-color: #9999ff;
@@ -609,12 +631,12 @@ body {
       background-image: url(../images/fabric.png);
       height: 40vh;
       margin: 0 auto;
-      padding-bottom: 150px; }
+      padding-bottom: 150px;
+      padding-top: 50px; }
       @media screen and (max-width: 768px) {
         body .content-wrapper .fun-fact-block-wrapper {
           -webkit-box-orient: vertical;
           -webkit-box-direction: normal;
-          -webkit-flex-direction: column;
           -ms-flex-direction: column;
           flex-direction: column;
           width: 100%;
@@ -629,24 +651,19 @@ body {
         margin-top: 0px;
         padding: 50px;
         -webkit-box-flex: 1;
-        -webkit-flex: 1;
         -ms-flex: 1;
         flex: 1;
         font-size: 1em;
         display: -webkit-box;
-        display: -webkit-flex;
         display: -ms-flexbox;
         display: flex;
         -webkit-box-orient: vertical;
         -webkit-box-direction: normal;
-        -webkit-flex-direction: column;
         -ms-flex-direction: column;
         flex-direction: column;
         -webkit-box-pack: center;
-        -webkit-justify-content: center;
         -ms-flex-pack: center;
         justify-content: center;
-        -webkit-align-content: center;
         -ms-flex-line-pack: center;
         align-content: center; }
         @media screen and (max-width: 768px) {
@@ -663,11 +680,11 @@ body {
           transition: 0.5s; }
         body .content-wrapper .fun-fact-block-wrapper .block5 .qoute5 {
           font-weight: 800;
-          max-width: 80%;
+          max-width: 50%;
           margin: 0 auto;
           color: #000;
           text-align: center;
-          font-size: 1em;
+          font-size: 1.2em;
           background-color: #fff;
           padding: 20px;
           -webkit-box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
@@ -680,24 +697,19 @@ body {
         margin-top: 0px;
         padding: 50px;
         -webkit-box-flex: 1;
-        -webkit-flex: 1;
         -ms-flex: 1;
         flex: 1;
         font-size: 1em;
         display: -webkit-box;
-        display: -webkit-flex;
         display: -ms-flexbox;
         display: flex;
         -webkit-box-orient: vertical;
         -webkit-box-direction: normal;
-        -webkit-flex-direction: column;
         -ms-flex-direction: column;
         flex-direction: column;
         -webkit-box-pack: center;
-        -webkit-justify-content: center;
         -ms-flex-pack: center;
         justify-content: center;
-        -webkit-align-content: center;
         -ms-flex-line-pack: center;
         align-content: center; }
         @media screen and (max-width: 768px) {
@@ -713,11 +725,11 @@ body {
           transition: 0.5s; }
         body .content-wrapper .fun-fact-block-wrapper .block6 .qoute6 {
           font-weight: 800;
-          max-width: 80%;
+          max-width: 50%;
           margin: 0 auto;
           color: #000;
           text-align: center;
-          font-size: 1em;
+          font-size: 1.2em;
           background-color: #fff;
           padding: 20px;
           -webkit-box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
@@ -726,7 +738,7 @@ body {
       position: relative;
       background-image: url(../images/fabric.png);
       width: 100%;
-      height: 200px;
+      height: 150px;
       margin-bottom: 300px;
       z-index: -1;
       background-color: #9999ff; }
@@ -831,15 +843,12 @@ body {
       margin: 0 auto;
       text-align: center;
       display: -webkit-box;
-      display: -webkit-flex;
       display: -ms-flexbox;
       display: flex;
       -webkit-box-pack: center;
-      -webkit-justify-content: center;
       -ms-flex-pack: center;
       justify-content: center;
       -webkit-box-align: center;
-      -webkit-align-items: center;
       -ms-flex-align: center;
       align-items: center;
       width: 90%;
@@ -855,14 +864,11 @@ body {
         padding: 50px;
         width: 50%;
         display: -webkit-box;
-        display: -webkit-flex;
         display: -ms-flexbox;
         display: flex;
         -webkit-box-pack: center;
-        -webkit-justify-content: center;
         -ms-flex-pack: center;
         justify-content: center;
-        -webkit-align-content: center;
         -ms-flex-line-pack: center;
         align-content: center; }
         @media screen and (max-width: 768px) {
@@ -888,14 +894,11 @@ body {
         padding: 50px;
         width: 50%;
         display: -webkit-box;
-        display: -webkit-flex;
         display: -ms-flexbox;
         display: flex;
         -webkit-box-pack: center;
-        -webkit-justify-content: center;
         -ms-flex-pack: center;
         justify-content: center;
-        -webkit-align-content: center;
         -ms-flex-line-pack: center;
         align-content: center; }
         @media screen and (max-width: 768px) {
@@ -921,14 +924,11 @@ body {
         padding: 50px;
         width: 50%;
         display: -webkit-box;
-        display: -webkit-flex;
         display: -ms-flexbox;
         display: flex;
         -webkit-box-pack: center;
-        -webkit-justify-content: center;
         -ms-flex-pack: center;
         justify-content: center;
-        -webkit-align-content: center;
         -ms-flex-line-pack: center;
         align-content: center; }
         @media screen and (max-width: 768px) {
@@ -954,14 +954,11 @@ body {
         padding: 50px;
         width: 50%;
         display: -webkit-box;
-        display: -webkit-flex;
         display: -ms-flexbox;
         display: flex;
         -webkit-box-pack: center;
-        -webkit-justify-content: center;
         -ms-flex-pack: center;
         justify-content: center;
-        -webkit-align-content: center;
         -ms-flex-line-pack: center;
         align-content: center; }
         @media screen and (max-width: 768px) {
