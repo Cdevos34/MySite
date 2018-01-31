@@ -36,13 +36,17 @@ body{
             width: 100%;
             //top: 13%;
             text-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+            @media screen and (max-width: $break-laptop){
+                font-size: 5em;
+                margin-bottom: 20px;
+                }
             @media screen and (max-width: $break-mobile){
                 font-size: 3.2em;
                 width: 100%;
                 letter-spacing: 10px;
                 margin-bottom: 20px;
+                }
             }
-        }
 
         .insilico-intro{
             font-size: 1.2em;
@@ -58,16 +62,17 @@ body{
             animation-delay: 0.5s;
             animation-duration: 1.5s;
             box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+            @media screen and (max-width: $break-laptop){
+                max-width: 50%;
+                }
             @media screen and (max-width: $break-mobile){
                 font-size: 1.1em;
                 max-width: 80%;
                 border: none;
                 box-shadow: none;
-            }
-        }    
-        
-    
-    }
+                }
+            }    
+        }
     
     .team{
         background-color: $purple-dark;
@@ -279,6 +284,10 @@ body{
             z-index: 2;
             margin-bottom: 80px;
             align-self: center;
+            @media screen and (max-width: $break-laptop){
+                width: 390px;
+                height: 690px;
+                }
             @media screen and(max-width: $break-mobile){
                 padding-top: 0px;
                 //transform: rotate(20deg);
@@ -307,6 +316,9 @@ body{
             //background-color: $purple-dark;
             border-radius: 20px;
             //box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+            @media screen and (max-width: $break-laptop){
+                font-size: 1.2em;
+            }
             @media screen and(max-width: $break-mobile){
                 font-size: 1em;
                 align-self: center;
@@ -317,9 +329,9 @@ body{
                 background-color: rgba(0,0,0,0);
                 box-shadow: none;
                 margin-bottom: 0px;
+                }
             }
         }
-    }
     
     .slanted-div2{
         position: relative;
@@ -363,12 +375,16 @@ body{
             margin: 0 auto;
             margin-top: 250px;
             margin-bottom: 100px;
+            @media screen and (max-width: $break-laptop){
+                font-size: 1.2em;
+                margin-top: 200px;
+                }
             @media screen and(max-width: $break-mobile){
                 max-width: 80%;  
                 font-size: 1em;
                 margin-top: 100px;
+                }
             }
-        }
         
         .insilico-vid{
             height: 50%;
@@ -380,13 +396,16 @@ body{
             //background-color: #ff9400;
             //border-radius: 20px;
             margin: 0%;
+            @media screen and (max-width: $break-laptop){
+                width: 65%;
+                }
             @media screen and (max-width: $break-mobile){
                 height: 25%;
                 width: 80%;
+                }
             }
-        }
         
-        .test-table{
+        .sketch-table{
             width: 60%;
             padding-bottom: 80px;
             margin: 0 auto;
@@ -411,7 +430,7 @@ body{
         @media screen and(max-width: $break-mobile){
             flex-direction: column;
             height: 650px;
-        }
+            }
         
         .locations{
             display: flex;
@@ -427,8 +446,8 @@ body{
                 margin: 0 auto;
                 flex-direction: column;
                 font-size: 1em;
+                }
             }
-        }
         
         .locations-p{
             display: flex;
@@ -438,16 +457,19 @@ body{
             max-width: 25%;
             margin-right: 150px;
             margin-top: 250px;
+            @media screen and (max-width: $break-laptop){
+                margin-top: 200px;
+                font-size: 1.2em;
+                }
             @media screen and(max-width: $break-mobile){
                 flex-direction: column;
                 max-width: 80%;
                 margin-top: 0px;
                 margin: 100 auto;
                 font-size: 1em;
+                }
             }
         }
-            
-    }
     
     .more-info{
         height: 300px;

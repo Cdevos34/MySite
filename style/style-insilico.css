@@ -173,6 +173,10 @@ body {
       text-align: center;
       width: 100%;
       text-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23); }
+      @media screen and (max-width: 1024px) {
+        body .banner .insilico {
+          font-size: 5em;
+          margin-bottom: 20px; } }
       @media screen and (max-width: 768px) {
         body .banner .insilico {
           font-size: 3.2em;
@@ -195,6 +199,9 @@ body {
       animation-duration: 1.5s;
       -webkit-box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
       box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22); }
+      @media screen and (max-width: 1024px) {
+        body .banner .insilico-intro {
+          max-width: 50%; } }
       @media screen and (max-width: 768px) {
         body .banner .insilico-intro {
           font-size: 1.1em;
@@ -419,6 +426,10 @@ body {
       margin-bottom: 80px;
       -ms-flex-item-align: center;
       align-self: center; }
+      @media screen and (max-width: 1024px) {
+        body .application .phone {
+          width: 390px;
+          height: 690px; } }
       @media screen and (max-width: 768px) {
         body .application .phone {
           padding-top: 0px;
@@ -437,6 +448,9 @@ body {
       align-self: center;
       height: auto;
       border-radius: 20px; }
+      @media screen and (max-width: 1024px) {
+        body .application .app-text {
+          font-size: 1.2em; } }
       @media screen and (max-width: 768px) {
         body .application .app-text {
           font-size: 1em;
@@ -499,6 +513,10 @@ body {
       margin: 0 auto;
       margin-top: 250px;
       margin-bottom: 100px; }
+      @media screen and (max-width: 1024px) {
+        body .table-subsection .table-intro {
+          font-size: 1.2em;
+          margin-top: 200px; } }
       @media screen and (max-width: 768px) {
         body .table-subsection .table-intro {
           max-width: 80%;
@@ -518,16 +536,19 @@ body {
       -ms-flex-direction: column;
       flex-direction: column;
       margin: 0%; }
+      @media screen and (max-width: 1024px) {
+        body .table-subsection .insilico-vid {
+          width: 65%; } }
       @media screen and (max-width: 768px) {
         body .table-subsection .insilico-vid {
           height: 25%;
           width: 80%; } }
-    body .table-subsection .test-table {
+    body .table-subsection .sketch-table {
       width: 60%;
       padding-bottom: 80px;
       margin: 0 auto; }
       @media screen and (max-width: 768px) {
-        body .table-subsection .test-table {
+        body .table-subsection .sketch-table {
           width: 90%;
           -webkit-box-orient: vertical;
           -webkit-box-direction: normal;
@@ -583,6 +604,10 @@ body {
       max-width: 25%;
       margin-right: 150px;
       margin-top: 250px; }
+      @media screen and (max-width: 1024px) {
+        body .location-section .locations-p {
+          margin-top: 200px;
+          font-size: 1.2em; } }
       @media screen and (max-width: 768px) {
         body .location-section .locations-p {
           -webkit-box-orient: vertical;

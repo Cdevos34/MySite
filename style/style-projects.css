@@ -228,6 +228,9 @@ body {
         letter-spacing: 10px;
         font-size: 8em;
         text-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23); }
+        @media screen and (max-width: 1024px) {
+          body .project-img1 .project-info-wrapper1 .first-project-title {
+            font-size: 5em; } }
         @media screen and (max-width: 768px) {
           body .project-img1 .project-info-wrapper1 .first-project-title {
             font-size: 3em;
@@ -249,6 +252,9 @@ body {
         text-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
         position: relative;
         padding-top: 0px; }
+        @media screen and (max-width: 1024px) {
+          body .project-img1 .project-info-wrapper1 .sub1 {
+            font-size: 20px; } }
         @media screen and (max-width: 768px) {
           body .project-img1 .project-info-wrapper1 .sub1 {
             left: 0;
@@ -276,6 +282,10 @@ body {
         body .project-img1 .project-info-wrapper1 .project-btn1:hover {
           background-color: rgba(123, 32, 180, 0.5);
           color: #fff; }
+        @media screen and (max-width: 1024px) {
+          body .project-img1 .project-info-wrapper1 .project-btn1 {
+            height: 40px;
+            width: 180px; } }
         @media screen and (max-width: 768px) {
           body .project-img1 .project-info-wrapper1 .project-btn1 {
             width: 200px;
@@ -322,6 +332,9 @@ body {
         letter-spacing: 10px;
         font-size: 8em;
         text-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23); }
+        @media screen and (max-width: 1024px) {
+          body .project-img2 .project-info-wrapper2 .second-project-title {
+            font-size: 5em; } }
         @media screen and (max-width: 768px) {
           body .project-img2 .project-info-wrapper2 .second-project-title {
             font-size: 3em;
@@ -343,6 +356,9 @@ body {
         text-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
         position: relative;
         padding-top: 0px; }
+        @media screen and (max-width: 1024px) {
+          body .project-img2 .project-info-wrapper2 .sub2 {
+            font-size: 20px; } }
         @media screen and (max-width: 768px) {
           body .project-img2 .project-info-wrapper2 .sub2 {
             left: 0;
@@ -369,6 +385,10 @@ body {
         body .project-img2 .project-info-wrapper2 .project-btn2:hover {
           background-color: rgba(255, 0, 0, 0.5);
           color: #fff; }
+        @media screen and (max-width: 1024px) {
+          body .project-img2 .project-info-wrapper2 .project-btn2 {
+            width: 180px;
+            height: 40px; } }
         @media screen and (max-width: 768px) {
           body .project-img2 .project-info-wrapper2 .project-btn2 {
             width: 200px;
@@ -415,6 +435,9 @@ body {
         letter-spacing: 10px;
         font-size: 8em;
         text-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23); }
+        @media screen and (max-width: 1024px) {
+          body .project-img3 .project-info-wrapper3 .third-project-title {
+            font-size: 5em; } }
         @media screen and (max-width: 768px) {
           body .project-img3 .project-info-wrapper3 .third-project-title {
             font-size: 3em;
@@ -436,6 +459,9 @@ body {
         text-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
         position: relative;
         padding-top: 0px; }
+        @media screen and (max-width: 1024px) {
+          body .project-img3 .project-info-wrapper3 .sub3 {
+            font-size: 20px; } }
         @media screen and (max-width: 768px) {
           body .project-img3 .project-info-wrapper3 .sub3 {
             left: 0;
@@ -462,6 +488,10 @@ body {
         body .project-img3 .project-info-wrapper3 .project-btn3:hover {
           background-color: rgba(0, 0, 255, 0.5);
           color: #fff; }
+        @media screen and (max-width: 1024px) {
+          body .project-img3 .project-info-wrapper3 .project-btn3 {
+            height: 40px;
+            width: 180px; } }
         @media screen and (max-width: 768px) {
           body .project-img3 .project-info-wrapper3 .project-btn3 {
             width: 200px;
@@ -508,6 +538,9 @@ body {
         letter-spacing: 10px;
         font-size: 8em;
         text-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23); }
+        @media screen and (max-width: 1024px) {
+          body .project-img4 .project-info-wrapper4 .fourth-project-title {
+            font-size: 5em; } }
         @media screen and (max-width: 768px) {
           body .project-img4 .project-info-wrapper4 .fourth-project-title {
             font-size: 3em;
@@ -529,6 +562,9 @@ body {
         text-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
         position: relative;
         padding-top: 0px; }
+        @media screen and (max-width: 1024px) {
+          body .project-img4 .project-info-wrapper4 .sub4 {
+            font-size: 20px; } }
         @media screen and (max-width: 768px) {
           body .project-img4 .project-info-wrapper4 .sub4 {
             left: 0;
@@ -555,6 +591,10 @@ body {
         body .project-img4 .project-info-wrapper4 .project-btn4:hover {
           background-color: rgba(100, 255, 0, 0.5);
           color: #fff; }
+        @media screen and (max-width: 1024px) {
+          body .project-img4 .project-info-wrapper4 .project-btn4 {
+            width: 180px;
+            height: 40px; } }
         @media screen and (max-width: 768px) {
           body .project-img4 .project-info-wrapper4 .project-btn4 {
             width: 200px;

@@ -106,21 +106,21 @@ body{
             //border-top: 5px solid #fff;
             margin:50 auto;
             text-align: center;
-            padding: 60px 0px 50px 50px;
+            padding: 10%;
             //max-width: 50%;
             background-color: $blue-medium;
             font-family: montserrat;
-            font-size: 2.5em;
+            font-size: 2em;
             color: #fff;
-            width: 100%;
+            width: 80%;
             margin: 0 auto;
             //margin-top: 150px;
             //border-top-right-radius: 50px;
             //border-top-left-radius: 50px;
             //box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 100px rgba(0,0,0,0.50);
             @media screen and (max-width: $break-mobile){
-                font-size: 2em;
-                padding: 50px 0px;
+                font-size: 1.5em;
+                padding: 10%;
             }
         }
         
@@ -186,7 +186,7 @@ body{
                     @media screen and(max-width: $break-mobile){
                         font-size: $font-size-mobile;
                         //flex-wrap: wrap;
-                        max-width: 50%;
+                        max-width: 0%;
                         text-align: center;
                         margin-bottom: 50px;
                     }
@@ -217,11 +217,11 @@ body{
                     margin: 0 auto;
                     width: 90%;
                     margin-bottom: 20px;
-                }
+                    }
                 &:hover{
                         transition: 0.5s;
                         width: 10xp;
-                }
+                        }
                 
                 .qoute2{
                     font-weight: 800;
@@ -233,11 +233,13 @@ body{
                     background-color: #fff;
                     padding: 20px;
                     box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+                    @media screen and (max-width: $break-mobile){
+                        font-size: 1em;
+                        max-width: 50%;
+                        }
+                    }
                 }
-                
             }
-            
-        }
         
         .block-row2{
             margin: 0;
@@ -302,7 +304,11 @@ body{
                     background-color: #fff;
                     padding: 20px;
                     box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
-                }
+                    @media screen and (max-width: $break-mobile){
+                        font-size: 1em;
+                        max-width: 50%;
+                        }
+                    }
             
             .block4{
                 //border-top: 5px solid #fff;
@@ -343,14 +349,17 @@ body{
                     background-color: #fff;
                     padding: 20px;
                     box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
-                }
-            
-        }
+                    @media screen and (max-width: $break-mobile){
+                        font-size: 1em;
+                        max-width: 50%;
+                        }
+                    }
+            }
         
         .text-block{
             background-color: $blue-medium;
             margin: 0px;
-            padding: 70px;
+            padding: 50px 0px;
             text-align: left;
             
             .abilities-text{
@@ -361,8 +370,12 @@ body{
                 margin: 0 auto;
                 text-align: left;
                 background-color: $blue-medium;
+                @media screen and (max-width: $break-laptop){
+                    font-size: 1.2em;
+                    max-width: 60%;
+                    }
                 @media screen and (max-width: $break-mobile){
-                    max-width: 80%;
+                    max-width: 90%;
                     font-size: 1.2em;
                 }
             }   
