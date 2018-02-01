@@ -41,7 +41,13 @@ body {
       background-image: url(../images/fabric.png); } }
   @media screen and (max-width: 940px) {
     body header .wrapper .mobile-navbar-ul {
-      display: inline-block;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+      flex-direction: column;
       width: 100px;
       top: 14%;
       font-size: 0.7em;
@@ -176,16 +182,12 @@ body {
     z-index: 5;
     margin-left: 50px;
     display: -webkit-box;
-    display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
-    -webkit-flex-wrap: wrap;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
-    -webkit-align-content: center;
     -ms-flex-line-pack: center;
     align-content: center;
-    -webkit-align-self: center;
     -ms-flex-item-align: center;
     align-self: center;
     pointer-events: none;

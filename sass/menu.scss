@@ -55,7 +55,8 @@ body{
             
             .mobile-navbar-ul{
                     @media screen and (max-width: $break-menu){
-                        display: inline-block;
+                        display: flex;
+                        flex-direction: column;
                         width: 100px;
                         top: 14%;
                         font-size: 0.7em;

@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import url('https://fonts.googleapis.com/css?family=Bahiana');
 @import 'variables';
 @import 'menu';
 
@@ -11,10 +12,10 @@ body{
             position: relative;
             width: 100%;
             z-index: -1;
-            height: 220px;
-            background-color: $purple-dark;
+            height: 250px;
+            background-position: top;
+            background-image: url(../images/slanted-bg.jpg);
             @media screen and (max-width: $break-laptop){
-                height: 120px;
                 }
             @media screen and (max-width: $break-mobile){
                 //height: 100px
@@ -36,26 +37,29 @@ body{
             }
     
     .skill-title{
-        font-family: montserrat;
+        font-family: bahiana, sans-serif;
         animation-delay: 0.5s;
         font-size: 5em;
-        color: #fff;
+        color: #000;
         text-align: center;
         padding-top: 100px;
         @media screen and (max-width: $break-laptop){
             padding-top: 50px;
-            font-size: 4em;
             }
         }
     
     .skills-text{
-        font-size: 1em;
+        font-size: 1.2em;
         margin: 0 auto;
+        animation-delay: 0.7s;
         font-family: montserrat;
-        color: #fff;
-        text-align: center;
+        color: #000;
+        text-align: left;
         max-width: 40%;
         margin-bottom: 20px;
+        @media screen and (max-width: $break-mobile){
+            max-width: 80%;
+        }
     }
     
     .skill-row1{
@@ -98,6 +102,125 @@ body{
         }
         
     }
+    
+        .social-block-wrapper{
+            margin: 0 auto;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            height: 150px;
+            margin-top: 150px;
+            background-image: url(../images/bg.jpg);
+            background-size: cover;
+//            @media screen and (max-width: $break-ipad){
+//                //flex-direction: column;
+//                max-width: 90%;
+//                height: 100px;
+//            }
+            
+            .social-block1{
+                //background-color: rgba(91, 118, 255, 1);
+                font-family: montserrat, sans-serif;
+                margin-top: 0px;
+                padding: 30px;
+                width: 2%;
+                display: flex;
+                //flex-direction: column;
+                justify-content: center;
+                align-content: center;
+                &:hover{
+                    box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+                    transition: 0.5s;
+                }
+                
+                .about-page-icon{
+                    width: 40px;
+                    @media screen and(max-width: $break-mobile){
+                        width: 40px;
+                    }
+                }
+            }
+            
+            .social-block2{
+                //background-color: rgba(91, 118, 255, 1);
+                font-family: montserrat, sans-serif;
+                margin-top: 0px;
+                padding: 30px;
+                width: 2%;
+                //min-height: 300px;
+                display: flex;
+                //flex-direction: column;
+                justify-content: center;
+                align-content: center;
+                &:hover{
+                    box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+                    transition: 0.5s;
+                }
+                
+                .about-page-icon{
+                    width: 40px;
+                    @media screen and(max-width: $break-mobile){
+                        width: 40px;
+                    }
+                }
+            }
+            
+            .social-block3{
+                //background-color: rgba(91, 118, 255, 1);
+                font-family: montserrat, sans-serif;
+                margin-top: 0px;
+                padding: 30px;
+                width: 2%;
+                //min-height: 300px;
+                display: flex;
+                //flex-direction: column;
+                justify-content: center;
+                align-content: center;
+                &:hover{
+                    box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+                    transition: 0.5s;
+                }
+                
+                .about-page-icon{
+                    width: 40px;
+                    @media screen and(max-width: $break-mobile){
+                        width: 40px;
+                    }
+                }
+            }
+            
+            .social-block4{
+                //background-color: rgba(91, 118, 255, 1);
+                font-family: montserrat, sans-serif;
+                margin-top: 0px;
+                padding: 30px;
+                width: 2%;
+                display: flex;
+                //flex-direction: column;
+                justify-content: center;
+                align-content: center;
+                &:hover{
+                    box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+                    transition: 0.5s;
+                }
+                
+                .about-page-icon{
+                    width: 40px;
+                    @media screen and(max-width: $break-mobile){
+                        width: 40px;
+                    }
+                }
+            }
+            
+            .disclaimer{
+                color: #fff;
+                font-family: montserrat, sans-serif;
+                margin: 0px 0px 0px 40px;
+            }
+            
+        }
     
 }
         
