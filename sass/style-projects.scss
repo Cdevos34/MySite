@@ -140,7 +140,6 @@ body{
                 }
             
             .project-btn1{
-                //display: none;
                 border: 2px solid #fff;
                 background-color: rgba(0,0,0,0);
                 font-family: montserrat;
@@ -259,6 +258,7 @@ body{
                 }
             
             .project-btn2{
+                animation-delay: 1s;
                 border: 2px solid #fff;
                 background-color: rgba(0,0,0,0);
                 font-family: montserrat;

@@ -44,12 +44,10 @@ body {
   @media screen and (max-width: 940px) {
     body header .wrapper .mobile-navbar-ul {
       display: -webkit-box;
-      display: -webkit-flex;
       display: -ms-flexbox;
       display: flex;
       -webkit-box-orient: vertical;
       -webkit-box-direction: normal;
-      -webkit-flex-direction: column;
       -ms-flex-direction: column;
       flex-direction: column;
       width: 100px;
@@ -179,6 +177,9 @@ body {
   body .content-wrapper {
     margin: 0;
     padding: 0; }
+    @media screen and (max-width: 768px) {
+      body .content-wrapper .banner-parallax {
+        background-position: 0px !important; } }
     body .content-wrapper .introduction-section {
       background-image: url(../images/lamps.jpeg);
       background-size: cover;
@@ -187,29 +188,25 @@ body {
       width: 100%;
       margin: 0 auto;
       height: auto;
-      min-height: 100vh;
+      height: 100vh;
       font-family: 'Montserrat', sans-serif;
       display: -webkit-box;
-      display: -webkit-flex;
       display: -ms-flexbox;
       display: flex;
       -webkit-box-pack: center;
-      -webkit-justify-content: center;
       -ms-flex-pack: center;
       justify-content: center;
       -webkit-box-align: center;
-      -webkit-align-items: center;
       -ms-flex-align: center;
       align-items: center; }
       @media screen and (max-width: 768px) {
         body .content-wrapper .introduction-section {
           -webkit-box-orient: vertical;
           -webkit-box-direction: normal;
-          -webkit-flex-direction: column;
           -ms-flex-direction: column;
           flex-direction: column;
           padding-top: 100px;
-          background-image: url(../images/about-me-bg-small.jpg);
+          background-image: url(../images/lamps.jpeg);
           width: 100%; } }
       body .content-wrapper .introduction-section .about-me-p {
         font-size: 1.2em;
@@ -217,11 +214,12 @@ body {
         padding: 50px;
         font-family: montserrat, sans-serif;
         color: #fff;
+        margin-top: 50px;
         max-width: 33%;
         z-index: 1;
         margin-right: 0px;
         border-radius: 20px;
-        border: 10px solid #fff;
+        border: 6px solid #fff;
         -webkit-animation-delay: 0.5s;
         animation-delay: 0.5s;
         -webkit-animation-duration: 1.5s;
@@ -234,8 +232,9 @@ body {
         @media screen and (max-width: 768px) {
           body .content-wrapper .introduction-section .about-me-p {
             margin-right: 0px;
+            margin-top: 0px;
             font-size: 1em;
-            max-width: 70%;
+            max-width: 80%;
             border: none;
             margin-left: 0px;
             text-align: left;
@@ -247,8 +246,8 @@ body {
         z-index: 0;
         position: relative;
         top: 0px;
-        height: 800px;
-        padding: 100px 0px 0px 00px;
+        height: 700px;
+        padding: 100px 0px 0px 3%;
         -webkit-animation-delay: 0.5s;
         animation-delay: 0.5s;
         -webkit-animation-duration: 1.5s;
@@ -258,9 +257,9 @@ body {
             height: 600px; } }
         @media screen and (max-width: 768px) {
           body .content-wrapper .introduction-section .me {
-            padding: 20px 100px 50px 90px;
+            padding: 0px 100px 50px 90px;
             padding-left: 90px;
-            height: 70%; } }
+            height: 60%; } }
     body .content-wrapper .abilities {
       margin: 0 auto;
       text-align: left;
@@ -282,31 +281,25 @@ body {
       padding: 20px 0px 50px 6%;
       text-align: left;
       display: -webkit-box;
-      display: -webkit-flex;
       display: -ms-flexbox;
       display: flex;
       margin: 0 auto;
-      -webkit-flex-wrap: wrap;
       -ms-flex-wrap: wrap;
       flex-wrap: wrap;
       -webkit-box-pack: left;
-      -webkit-justify-content: left;
       -ms-flex-pack: left;
       justify-content: left;
       -webkit-box-align: center;
-      -webkit-align-items: center;
       -ms-flex-align: center;
       align-items: center; }
       @media screen and (max-width: 768px) {
         body .content-wrapper .text-block {
           padding: 30px 0px;
           -webkit-box-pack: center;
-          -webkit-justify-content: center;
           -ms-flex-pack: center;
           justify-content: center; } }
       body .content-wrapper .text-block .abilities-text {
         display: -webkit-box;
-        display: -webkit-flex;
         display: -ms-flexbox;
         display: flex;
         font-size: 1.2em;
@@ -318,7 +311,6 @@ body {
         @media screen and (max-width: 768px) {
           body .content-wrapper .text-block .abilities-text {
             width: 80%;
-            -webkit-flex-wrap: wrap;
             -ms-flex-wrap: wrap;
             flex-wrap: wrap; } }
       body .content-wrapper .text-block .design-icon {
@@ -329,7 +321,6 @@ body {
         animation-delay: 0.3s; }
         @media screen and (max-width: 768px) {
           body .content-wrapper .text-block .design-icon {
-            -webkit-flex-wrap: nowrap;
             -ms-flex-wrap: nowrap;
             flex-wrap: nowrap;
             margin: 30px;
@@ -341,7 +332,6 @@ body {
         height: 128px; }
         @media screen and (max-width: 768px) {
           body .content-wrapper .text-block .technical-icon {
-            -webkit-flex-wrap: nowrap;
             -ms-flex-wrap: nowrap;
             flex-wrap: nowrap;
             margin: 30px;
@@ -350,20 +340,16 @@ body {
     body .content-wrapper .block-row1 {
       text-align: center;
       display: -webkit-box;
-      display: -webkit-flex;
       display: -ms-flexbox;
       display: flex;
       width: 90%;
-      padding: 0% 5%;
+      padding: 2% 5% 0% 5%;
       background-color: #9999ff;
-      height: 40vh;
-      margin: 0 auto;
-      padding-top: 2%; }
+      height: 40vh; }
       @media screen and (max-width: 768px) {
         body .content-wrapper .block-row1 {
           -webkit-box-orient: vertical;
           -webkit-box-direction: normal;
-          -webkit-flex-direction: column;
           -ms-flex-direction: column;
           flex-direction: column;
           width: 100%;
@@ -378,25 +364,20 @@ body {
         font-family: montserrat, sans-serif;
         padding: 50px;
         -webkit-box-flex: 1;
-        -webkit-flex: 1;
         -ms-flex: 1;
         flex: 1;
         height: 40vh;
         min-height: 40vh;
         display: -webkit-box;
-        display: -webkit-flex;
         display: -ms-flexbox;
         display: flex;
         -webkit-box-orient: vertical;
         -webkit-box-direction: normal;
-        -webkit-flex-direction: column;
         -ms-flex-direction: column;
         flex-direction: column;
         -webkit-box-pack: center;
-        -webkit-justify-content: center;
         -ms-flex-pack: center;
         justify-content: center;
-        -webkit-align-content: center;
         -ms-flex-line-pack: center;
         align-content: center; }
         @media screen and (max-width: 768px) {
@@ -434,24 +415,19 @@ body {
         animation-delay: 0.2s;
         padding: 50px;
         -webkit-box-flex: 1;
-        -webkit-flex: 1;
         -ms-flex: 1;
         flex: 1;
         height: 31vh;
         display: -webkit-box;
-        display: -webkit-flex;
         display: -ms-flexbox;
         display: flex;
         -webkit-box-orient: vertical;
         -webkit-box-direction: normal;
-        -webkit-flex-direction: column;
         -ms-flex-direction: column;
         flex-direction: column;
         -webkit-box-pack: center;
-        -webkit-justify-content: center;
         -ms-flex-pack: center;
         justify-content: center;
-        -webkit-align-content: center;
         -ms-flex-line-pack: center;
         align-content: center; }
         @media screen and (max-width: 768px) {
@@ -487,11 +463,9 @@ body {
       background-color: #7f7fff;
       text-align: center;
       display: -webkit-box;
-      display: -webkit-flex;
       display: -ms-flexbox;
       display: flex;
       -webkit-box-pack: end;
-      -webkit-justify-content: flex-end;
       -ms-flex-pack: end;
       justify-content: flex-end;
       width: 90%;
@@ -503,7 +477,6 @@ body {
         body .content-wrapper .block-row2 {
           -webkit-box-orient: vertical;
           -webkit-box-direction: normal;
-          -webkit-flex-direction: column;
           -ms-flex-direction: column;
           flex-direction: column;
           width: 100%;
@@ -521,23 +494,18 @@ body {
         margin-top: 0px;
         padding: 50px;
         -webkit-box-flex: 1;
-        -webkit-flex: 1;
         -ms-flex: 1;
         flex: 1;
         display: -webkit-box;
-        display: -webkit-flex;
         display: -ms-flexbox;
         display: flex;
         -webkit-box-orient: vertical;
         -webkit-box-direction: normal;
-        -webkit-flex-direction: column;
         -ms-flex-direction: column;
         flex-direction: column;
         -webkit-box-pack: center;
-        -webkit-justify-content: center;
         -ms-flex-pack: center;
         justify-content: center;
-        -webkit-align-content: center;
         -ms-flex-line-pack: center;
         align-content: center; }
         @media screen and (max-width: 768px) {
@@ -577,23 +545,18 @@ body {
         animation-delay: 0.8s;
         padding: 50px;
         -webkit-box-flex: 1;
-        -webkit-flex: 1;
         -ms-flex: 1;
         flex: 1;
         display: -webkit-box;
-        display: -webkit-flex;
         display: -ms-flexbox;
         display: flex;
         -webkit-box-orient: vertical;
         -webkit-box-direction: normal;
-        -webkit-flex-direction: column;
         -ms-flex-direction: column;
         flex-direction: column;
         -webkit-box-pack: center;
-        -webkit-justify-content: center;
         -ms-flex-pack: center;
         justify-content: center;
-        -webkit-align-content: center;
         -ms-flex-line-pack: center;
         align-content: center; }
         @media screen and (max-width: 768px) {
@@ -665,32 +628,26 @@ body {
       padding: 0px 0px 50px 6%;
       text-align: left;
       display: -webkit-box;
-      display: -webkit-flex;
       display: -ms-flexbox;
       display: flex;
       margin: 0 auto;
-      -webkit-flex-wrap: wrap;
       -ms-flex-wrap: wrap;
       flex-wrap: wrap;
       -webkit-box-pack: left;
-      -webkit-justify-content: left;
       -ms-flex-pack: left;
       justify-content: left;
       -webkit-box-align: center;
-      -webkit-align-items: center;
       -ms-flex-align: center;
       align-items: center; }
       @media screen and (max-width: 768px) {
         body .content-wrapper .text-block2 {
           padding: 30px 0px;
           -webkit-box-pack: center;
-          -webkit-justify-content: center;
           -ms-flex-pack: center;
           justify-content: center; } }
       body .content-wrapper .text-block2 .hobbies-text {
         font-size: 1.2em;
         display: -webkit-box;
-        display: -webkit-flex;
         display: -ms-flexbox;
         display: flex;
         font-family: montserrat;
@@ -709,14 +666,12 @@ body {
         -webkit-animation-delay: 0.3s;
         animation-delay: 0.3s;
         display: -webkit-box;
-        display: -webkit-flex;
         display: -ms-flexbox;
         display: flex;
         margin: 50px;
         width: 128px; }
         @media screen and (max-width: 768px) {
           body .content-wrapper .text-block2 .fight-icon {
-            -webkit-flex-wrap: nowrap;
             -ms-flex-wrap: nowrap;
             flex-wrap: nowrap;
             margin: 30px;
@@ -724,14 +679,12 @@ body {
             height: 94px; } }
       body .content-wrapper .text-block2 .games-icon {
         display: -webkit-box;
-        display: -webkit-flex;
         display: -ms-flexbox;
         display: flex;
         margin: 50px;
         width: 128px; }
         @media screen and (max-width: 768px) {
           body .content-wrapper .text-block2 .games-icon {
-            -webkit-flex-wrap: nowrap;
             -ms-flex-wrap: nowrap;
             flex-wrap: nowrap;
             margin: 30px;
@@ -740,11 +693,9 @@ body {
     body .content-wrapper .fun-fact-block-wrapper {
       text-align: center;
       display: -webkit-box;
-      display: -webkit-flex;
       display: -ms-flexbox;
       display: flex;
       -webkit-box-pack: end;
-      -webkit-justify-content: flex-end;
       -ms-flex-pack: end;
       justify-content: flex-end;
       background-color: #9999ff;
@@ -759,7 +710,6 @@ body {
         body .content-wrapper .fun-fact-block-wrapper {
           -webkit-box-orient: vertical;
           -webkit-box-direction: normal;
-          -webkit-flex-direction: column;
           -ms-flex-direction: column;
           flex-direction: column;
           width: 100%;
@@ -776,24 +726,19 @@ body {
         margin-top: 0px;
         padding: 50px;
         -webkit-box-flex: 1;
-        -webkit-flex: 1;
         -ms-flex: 1;
         flex: 1;
         font-size: 1em;
         display: -webkit-box;
-        display: -webkit-flex;
         display: -ms-flexbox;
         display: flex;
         -webkit-box-orient: vertical;
         -webkit-box-direction: normal;
-        -webkit-flex-direction: column;
         -ms-flex-direction: column;
         flex-direction: column;
         -webkit-box-pack: center;
-        -webkit-justify-content: center;
         -ms-flex-pack: center;
         justify-content: center;
-        -webkit-align-content: center;
         -ms-flex-line-pack: center;
         align-content: center; }
         @media screen and (max-width: 768px) {
@@ -833,24 +778,19 @@ body {
         margin-top: 0px;
         padding: 50px;
         -webkit-box-flex: 1;
-        -webkit-flex: 1;
         -ms-flex: 1;
         flex: 1;
         font-size: 1em;
         display: -webkit-box;
-        display: -webkit-flex;
         display: -ms-flexbox;
         display: flex;
         -webkit-box-orient: vertical;
         -webkit-box-direction: normal;
-        -webkit-flex-direction: column;
         -ms-flex-direction: column;
         flex-direction: column;
         -webkit-box-pack: center;
-        -webkit-justify-content: center;
         -ms-flex-pack: center;
         justify-content: center;
-        -webkit-align-content: center;
         -ms-flex-line-pack: center;
         align-content: center; }
         @media screen and (max-width: 768px) {
@@ -878,11 +818,9 @@ body {
     body .content-wrapper .fun-fact-row2 {
       text-align: center;
       display: -webkit-box;
-      display: -webkit-flex;
       display: -ms-flexbox;
       display: flex;
       -webkit-box-pack: end;
-      -webkit-justify-content: flex-end;
       -ms-flex-pack: end;
       justify-content: flex-end;
       background-color: #9999ff;
@@ -897,7 +835,6 @@ body {
         body .content-wrapper .fun-fact-row2 {
           -webkit-box-orient: vertical;
           -webkit-box-direction: normal;
-          -webkit-flex-direction: column;
           -ms-flex-direction: column;
           flex-direction: column;
           width: 100%;
@@ -914,24 +851,19 @@ body {
         margin-top: 0px;
         padding: 50px;
         -webkit-box-flex: 1;
-        -webkit-flex: 1;
         -ms-flex: 1;
         flex: 1;
         font-size: 1em;
         display: -webkit-box;
-        display: -webkit-flex;
         display: -ms-flexbox;
         display: flex;
         -webkit-box-orient: vertical;
         -webkit-box-direction: normal;
-        -webkit-flex-direction: column;
         -ms-flex-direction: column;
         flex-direction: column;
         -webkit-box-pack: center;
-        -webkit-justify-content: center;
         -ms-flex-pack: center;
         justify-content: center;
-        -webkit-align-content: center;
         -ms-flex-line-pack: center;
         align-content: center; }
         @media screen and (max-width: 768px) {
@@ -959,11 +891,9 @@ body {
     body .content-wrapper .fun-fact-row3 {
       text-align: center;
       display: -webkit-box;
-      display: -webkit-flex;
       display: -ms-flexbox;
       display: flex;
       -webkit-box-pack: end;
-      -webkit-justify-content: flex-end;
       -ms-flex-pack: end;
       justify-content: flex-end;
       background-color: #9999ff;
@@ -978,7 +908,6 @@ body {
         body .content-wrapper .fun-fact-row3 {
           -webkit-box-orient: vertical;
           -webkit-box-direction: normal;
-          -webkit-flex-direction: column;
           -ms-flex-direction: column;
           flex-direction: column;
           width: 100%;
@@ -989,30 +918,25 @@ body {
         background-image: url(../images/pubquiz.jpg);
         background-size: cover;
         background-position: center;
-        -webkit-animation-delay: 1s;
-        animation-delay: 1s;
+        -webkit-animation-delay: 0.4s;
+        animation-delay: 0.4s;
         font-family: montserrat, sans-serif;
         margin-top: 0px;
         padding: 50px;
         -webkit-box-flex: 1;
-        -webkit-flex: 1;
         -ms-flex: 1;
         flex: 1;
         font-size: 1em;
         display: -webkit-box;
-        display: -webkit-flex;
         display: -ms-flexbox;
         display: flex;
         -webkit-box-orient: vertical;
         -webkit-box-direction: normal;
-        -webkit-flex-direction: column;
         -ms-flex-direction: column;
         flex-direction: column;
         -webkit-box-pack: center;
-        -webkit-justify-content: center;
         -ms-flex-pack: center;
         justify-content: center;
-        -webkit-align-content: center;
         -ms-flex-line-pack: center;
         align-content: center; }
         @media screen and (max-width: 768px) {
@@ -1046,30 +970,25 @@ body {
         background-image: url(../images/photo.jpeg);
         background-size: cover;
         background-position: center;
-        -webkit-animation-delay: 1.2s;
-        animation-delay: 1.2s;
+        -webkit-animation-delay: 0.8s;
+        animation-delay: 0.8s;
         font-family: montserrat, sans-serif;
         margin-top: 0px;
         padding: 50px;
         -webkit-box-flex: 1;
-        -webkit-flex: 1;
         -ms-flex: 1;
         flex: 1;
         font-size: 1em;
         display: -webkit-box;
-        display: -webkit-flex;
         display: -ms-flexbox;
         display: flex;
         -webkit-box-orient: vertical;
         -webkit-box-direction: normal;
-        -webkit-flex-direction: column;
         -ms-flex-direction: column;
         flex-direction: column;
         -webkit-box-pack: center;
-        -webkit-justify-content: center;
         -ms-flex-pack: center;
         justify-content: center;
-        -webkit-align-content: center;
         -ms-flex-line-pack: center;
         align-content: center; }
         @media screen and (max-width: 768px) {
@@ -1200,43 +1119,40 @@ body {
       margin: 0 auto;
       text-align: center;
       display: -webkit-box;
-      display: -webkit-flex;
       display: -ms-flexbox;
       display: flex;
       -webkit-box-pack: center;
-      -webkit-justify-content: center;
       -ms-flex-pack: center;
       justify-content: center;
       -webkit-box-align: center;
-      -webkit-align-items: center;
       -ms-flex-align: center;
       align-items: center;
       width: 100%;
-      height: 150px;
+      height: 10%;
+      min-height: 80px;
       background-image: url(../images/bg.jpg);
       background-size: cover; }
       body .content-wrapper .social-block-wrapper .social-block1 {
         font-family: montserrat, sans-serif;
         margin-top: 0px;
-        padding: 30px;
+        padding: 20px;
         width: 2%;
         display: -webkit-box;
-        display: -webkit-flex;
         display: -ms-flexbox;
         display: flex;
         -webkit-box-pack: center;
-        -webkit-justify-content: center;
         -ms-flex-pack: center;
         justify-content: center;
-        -webkit-align-content: center;
         -ms-flex-line-pack: center;
         align-content: center; }
         body .content-wrapper .social-block-wrapper .social-block1:hover {
           -webkit-box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
           box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
-          -webkit-transition: 0.5s;
-          -o-transition: 0.5s;
-          transition: 0.5s; }
+          -webkit-transition: 0.3s;
+          -o-transition: 0.3s;
+          transition: 0.3s;
+          background-color: rgba(255, 255, 255, 0.3);
+          border-radius: 50%; }
         body .content-wrapper .social-block-wrapper .social-block1 .about-page-icon {
           width: 40px; }
           @media screen and (max-width: 768px) {
@@ -1245,25 +1161,24 @@ body {
       body .content-wrapper .social-block-wrapper .social-block2 {
         font-family: montserrat, sans-serif;
         margin-top: 0px;
-        padding: 30px;
+        padding: 20px;
         width: 2%;
         display: -webkit-box;
-        display: -webkit-flex;
         display: -ms-flexbox;
         display: flex;
         -webkit-box-pack: center;
-        -webkit-justify-content: center;
         -ms-flex-pack: center;
         justify-content: center;
-        -webkit-align-content: center;
         -ms-flex-line-pack: center;
         align-content: center; }
         body .content-wrapper .social-block-wrapper .social-block2:hover {
           -webkit-box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
           box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
-          -webkit-transition: 0.5s;
-          -o-transition: 0.5s;
-          transition: 0.5s; }
+          -webkit-transition: 0.3s;
+          -o-transition: 0.3s;
+          transition: 0.3s;
+          background-color: rgba(255, 255, 255, 0.3);
+          border-radius: 50%; }
         body .content-wrapper .social-block-wrapper .social-block2 .about-page-icon {
           width: 40px; }
           @media screen and (max-width: 768px) {
@@ -1272,25 +1187,24 @@ body {
       body .content-wrapper .social-block-wrapper .social-block3 {
         font-family: montserrat, sans-serif;
         margin-top: 0px;
-        padding: 30px;
+        padding: 20px;
         width: 2%;
         display: -webkit-box;
-        display: -webkit-flex;
         display: -ms-flexbox;
         display: flex;
         -webkit-box-pack: center;
-        -webkit-justify-content: center;
         -ms-flex-pack: center;
         justify-content: center;
-        -webkit-align-content: center;
         -ms-flex-line-pack: center;
         align-content: center; }
         body .content-wrapper .social-block-wrapper .social-block3:hover {
           -webkit-box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
           box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
-          -webkit-transition: 0.5s;
-          -o-transition: 0.5s;
-          transition: 0.5s; }
+          -webkit-transition: 0.3s;
+          -o-transition: 0.3s;
+          transition: 0.3s;
+          background-color: rgba(255, 255, 255, 0.3);
+          border-radius: 50%; }
         body .content-wrapper .social-block-wrapper .social-block3 .about-page-icon {
           width: 40px; }
           @media screen and (max-width: 768px) {
@@ -1299,25 +1213,24 @@ body {
       body .content-wrapper .social-block-wrapper .social-block4 {
         font-family: montserrat, sans-serif;
         margin-top: 0px;
-        padding: 30px;
+        padding: 20px;
         width: 2%;
         display: -webkit-box;
-        display: -webkit-flex;
         display: -ms-flexbox;
         display: flex;
         -webkit-box-pack: center;
-        -webkit-justify-content: center;
         -ms-flex-pack: center;
         justify-content: center;
-        -webkit-align-content: center;
         -ms-flex-line-pack: center;
         align-content: center; }
         body .content-wrapper .social-block-wrapper .social-block4:hover {
           -webkit-box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
           box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
-          -webkit-transition: 0.5s;
-          -o-transition: 0.5s;
-          transition: 0.5s; }
+          -webkit-transition: 0.3s;
+          -o-transition: 0.3s;
+          transition: 0.3s;
+          background-color: rgba(255, 255, 255, 0.3);
+          border-radius: 50%; }
         body .content-wrapper .social-block-wrapper .social-block4 .about-page-icon {
           width: 40px; }
           @media screen and (max-width: 768px) {

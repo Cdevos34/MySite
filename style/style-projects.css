@@ -391,6 +391,8 @@ body {
             letter-spacing: 0px;
             width: 100%; } }
       body .project-img2 .project-info-wrapper2 .project-btn2 {
+        -webkit-animation-delay: 1s;
+        animation-delay: 1s;
         border: 2px solid #fff;
         background-color: transparent;
         font-family: montserrat;

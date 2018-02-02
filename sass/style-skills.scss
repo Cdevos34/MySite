@@ -91,6 +91,11 @@ body{
         .skill-bar{
             animation-delay: 1s;
             height: 120px;
+            border-radius: 20px;
+            &:hover{
+                    box-shadow: 0px 40px 50px -10px rgba(0,0,0,0.30);
+                    transition: 0.5s;
+                }
             @media screen and (max-width: $break-laptop){
                 height: 90px;
             }
@@ -109,9 +114,10 @@ body{
             display: flex;
             justify-content: center;
             align-items: center;
+            margin-top: 100px;
             width: 100%;
-            height: 150px;
-            margin-top: 150px;
+            height: 10%;
+            min-height: 80px;
             background-image: url(../images/bg.jpg);
             background-size: cover;
 //            @media screen and (max-width: $break-ipad){
@@ -124,7 +130,7 @@ body{
                 //background-color: rgba(91, 118, 255, 1);
                 font-family: montserrat, sans-serif;
                 margin-top: 0px;
-                padding: 30px;
+                padding: 20px;
                 width: 2%;
                 display: flex;
                 //flex-direction: column;
@@ -132,7 +138,9 @@ body{
                 align-content: center;
                 &:hover{
                     box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
-                    transition: 0.5s;
+                    transition: 0.3s;
+                    background-color: rgba(255,255,255,0.3);
+                    border-radius: 50%;
                 }
                 
                 .about-page-icon{
@@ -147,7 +155,7 @@ body{
                 //background-color: rgba(91, 118, 255, 1);
                 font-family: montserrat, sans-serif;
                 margin-top: 0px;
-                padding: 30px;
+                padding: 20px;
                 width: 2%;
                 //min-height: 300px;
                 display: flex;
@@ -156,7 +164,9 @@ body{
                 align-content: center;
                 &:hover{
                     box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
-                    transition: 0.5s;
+                    transition: 0.3s;
+                    background-color: rgba(255,255,255,0.3);
+                    border-radius: 50%;
                 }
                 
                 .about-page-icon{
@@ -171,7 +181,7 @@ body{
                 //background-color: rgba(91, 118, 255, 1);
                 font-family: montserrat, sans-serif;
                 margin-top: 0px;
-                padding: 30px;
+                padding: 20px;
                 width: 2%;
                 //min-height: 300px;
                 display: flex;
@@ -180,7 +190,9 @@ body{
                 align-content: center;
                 &:hover{
                     box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
-                    transition: 0.5s;
+                    transition: 0.3s;
+                    background-color: rgba(255,255,255,0.3);
+                    border-radius: 50%;
                 }
                 
                 .about-page-icon{
@@ -195,7 +207,7 @@ body{
                 //background-color: rgba(91, 118, 255, 1);
                 font-family: montserrat, sans-serif;
                 margin-top: 0px;
-                padding: 30px;
+                padding: 20px;
                 width: 2%;
                 display: flex;
                 //flex-direction: column;
@@ -203,7 +215,9 @@ body{
                 align-content: center;
                 &:hover{
                     box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
-                    transition: 0.5s;
+                    transition: 0.3s;
+                    background-color: rgba(255,255,255,0.3);
+                    border-radius: 50%;
                 }
                 
                 .about-page-icon{
@@ -215,9 +229,9 @@ body{
             }
             
             .disclaimer{
-                color: #fff;
                 font-family: montserrat, sans-serif;
                 margin: 0px 0px 0px 40px;
+                color: #fff;
             }
             
         }

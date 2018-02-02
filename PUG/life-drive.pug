@@ -19,9 +19,9 @@ html
                     ul.all-icons
                         a(href="https://www.facebook.com/chris.devos.98"): img.icon(src="Icons/facebook-icon.png")
                         a(href="https://www.behance.net/CdeVos"): img.icon(src="Icons/behance-icon.png")
-                        a(href="https://www.facebook.com/chris.devos.98"): img.icon(src="Icons/whatsapp-icon.png")
+                        a(href="https://www.linkedin.com/in/chris-de-vos-9a7a2b96/"): img.icon(src="Icons/linkedin.png")
                         a(href="https://github.com/Cdevos34"): img.icon(src="Icons/github-icon.png")
-                        a(href="https://www.facebook.com/chris.devos.98"): img.icon(src="Icons/email-icon.png")        
+                        a(href="mailto:cdevos34@gmail.com"): img.icon(src="Icons/email-icon.png")        
         a(href="index.html"): img.home(src="Icons/face-icon.png")
     .banner.banner-parallax    
         h1.insilico Life-drive
@@ -31,7 +31,7 @@ html
         .members
             img.no-person(src="images/no-person.png")
             img.no-person(src="images/no-person.png")
-            img.chris(src="images/me-round.png")
+            a(href="https://www.behance.net/CdeVos"): img.chris(src="images/me-round.png")
             img.no-person(src="images/no-person.png")
             img.no-person(src="images/no-person.png")
         //h1.name1 Chris  
@@ -41,25 +41,30 @@ html
         //h1.name5 Melanie
     .slanted-div1
     .application 
-        img.life-drive.item-parallax(src="images/life-drive.png")
-        .app-text Ik heb er voor gekozen om een old school arcade te bouwen waarin de game of life verwerkt is. Met behulp van code en een open source scherm streaming programma en een Arduino Uno microcontroller heb ik het spel weten weer te geven op een LED matrix van 32x32 pixels. Om dit te realiseren heb ik veel moeten leren over coderen en het aansluiten en solderen van hardware. 
+        img.life-drive.item-parallax-down(src="images/life-drive.png")
+        .arcade-text Ik heb een old school arcade te bouwen waarin de game of life verwerkt is. Met behulp van code en een open source scherm streaming programma en een Arduino Uno microcontroller heb ik het spel weten weer te geven op een LED matrix van 32x32 pixels. Om dit te realiseren heb ik veel moeten leren over coderen en het aansluiten en solderen van hardware. 
     .slanted-div2
     .table-subsection
-        p.table-intro Het startpunt van jou avontuur is onze interactieve tafel. De hackergroep Insilico geeft jou via deze installatie die informatie die je nodig hebt om het spel te spelen. Met behulp van de Insilico webapplicatie kun je de spel locaties op de tafel laten oplichten en je avontuur beginnnen.
+        p.table-intro The Game of life is simpel maar toch complex. De regels die nodig zijn voor de start van deze simulatie zijn goed te overzien, maar de gevolgen van deze regels zijn niet te voorspellen.
         .game-of-life(src="images/game-of-life.gif")
         iframe.life-drive-vid(width="560" height="315" src="https://www.youtube.com/embed/FbzNUgpcGhI" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen>)
     .slanted-div3
     .location-section
-        p.locations-p De gebruiker kan opdrachten doen op verschillende locaties in de stad. Je bent vrij om te beginnen op een eigen gekozen locaties zolang deze valt binnen de zone waar je op dat moment in zit. De locaties zijn verdeeld in 3 zones en om de uit computer simulatie te ontsnappen moet je ten minste één opdracht per zone hebben voltooid!
+        p.locations-p De LifeDrive is te besturen doormiddel van het ingebouwde toetsenbord en kan verschillende kleuren aannemen. Het is mogelijk om specifieke patronen af te spelen zoals een zogeheten Glider, maar de gebruiker kan ook gewoon een random patroon genereren. De uitkomst van  de simulatie is telkens anders en het is prachtig om te zien.
         img.life-drive-red(src="images/life-drive-red.png")
         //video.insilico-vid(width='500', height='500', controls='controls')
             source(src='/video/insilico.mp4', type='video/mp4')
             source(src='/video/movie.ogg', type='video/ogg')
-    .more-info
-        p.more-info-p Wil je meer weten over hoe dit project tot stand is gekomen dan kun je een kijkje nemen op de blog van dit project.
-        a(href="https://escapefromsaxion.wordpress.com/"): img.blog-icon(src="Icons/wordpress-icon.png")
-        
-        
+    .social-block-wrapper
+        .social-block1
+            a(href="https://www.behance.net/CdeVos"): img.about-page-icon(src="Icons/behance-icon.png")
+        .social-block2
+            a(href="https://github.com/Cdevos34"): img.about-page-icon(src="Icons/github-icon.png")
+        .social-block3
+            a(href="https://www.facebook.com/chris.devos.98"): img.about-page-icon(src="Icons/email-icon.png")
+        .social-block4
+            a(href="https://www.facebook.com/chris.devos.98"): img.about-page-icon(src="Icons/facebook-icon.png")
+        p.disclaimer Design and coding by Chris de Vos
     
     
     

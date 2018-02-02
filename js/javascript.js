@@ -60,7 +60,8 @@ function parallax() {
     console.log('hello');
     
     $('.banner-parallax').css('background-position','0px ' +(wScroll*1.07)+'px')
-    $('.item-parallax').css('top',+(wScroll*0.08)+'px')
+    $('.item-parallax-down').css('top',+(wScroll*0.12)+'px')
+    $('.item-parallax-up').css('top',-(wScroll*0.25)+'px')
     //$('.about-me-p').css('top',+(wScroll*-0.2)+'px')
     
 }
