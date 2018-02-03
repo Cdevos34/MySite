@@ -146,7 +146,7 @@ body{
                 .about-page-icon{
                     width: 40px;
                     @media screen and(max-width: $break-mobile){
-                        width: 40px;
+                        width: 30px;
                     }
                 }
             }
@@ -172,7 +172,7 @@ body{
                 .about-page-icon{
                     width: 40px;
                     @media screen and(max-width: $break-mobile){
-                        width: 40px;
+                        width: 30px;
                     }
                 }
             }
@@ -198,7 +198,7 @@ body{
                 .about-page-icon{
                     width: 40px;
                     @media screen and(max-width: $break-mobile){
-                        width: 40px;
+                        width: 30px;
                     }
                 }
             }
@@ -223,7 +223,7 @@ body{
                 .about-page-icon{
                     width: 40px;
                     @media screen and(max-width: $break-mobile){
-                        width: 40px;
+                        width: 30px;
                     }
                 }
             }
@@ -232,6 +232,11 @@ body{
                 font-family: montserrat, sans-serif;
                 margin: 0px 0px 0px 40px;
                 color: #fff;
+                @media screen and (max-width: $break-mobile){
+                    margin: 0px 0px 0px 20px;
+                    max-width: 100px;
+                    font-size: 0.8em;
+                }
             }
             
         }

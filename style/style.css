@@ -251,11 +251,11 @@ body {
       box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22); }
       @media screen and (max-width: 1280px) {
         body .hello-face .hello {
-          font-size: 1.5em;
+          font-size: 2em;
           border: 5px solid #fff; } }
       @media screen and (max-width: 768px) {
         body .hello-face .hello {
-          font-size: 1.5em;
+          font-size: 2em;
           max-width: 40%;
           margin: 0% 10%;
           margin: 0 auto;
