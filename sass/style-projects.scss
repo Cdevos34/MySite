@@ -62,7 +62,7 @@ body{
     }
     
     .project-img1{
-        background-image: url(../images/sticker.jpg);
+        background-image: url(../images/project-insilico-banner.jpg);
         background-size: cover;
         height: 100vh;
         width: 100%;
@@ -72,7 +72,7 @@ body{
         margin: 0;
         padding: 0;
         @media screen and (max-width: $break-mobile){
-            background-image: url(../images/sticker-m.jpg);
+            background-image: url(../images/project-insilico-banner.jpg);
             height: 100vh;
             width: 100vw;
             }
@@ -183,7 +183,7 @@ body{
     }
         
     .project-img2{
-        background-image: url(../images/keyboard.jpg);
+        background-image: url(../images/project-lifedrive-banner.jpg);
         background-size: cover;
         height: 100vh;
         background-attachment: fixed;
@@ -193,7 +193,7 @@ body{
         @media screen and (max-width: $break-mobile){
             height: 100vh;
             width: 100vw;
-            background-image: url(../images/keyboard-m.jpg);
+            background-image: url(../images/project-lifedrive-banner.jpg);
             }
         
         .project-info-wrapper2{
@@ -302,7 +302,7 @@ body{
     }
     
     .project-img3{
-        background-image: url(../images/rasp.jpg);
+        background-image: url(../images/project-berrybot-banner.jpg);
         background-size: cover;
         height: 100vh;
         background-attachment: fixed;
@@ -312,7 +312,7 @@ body{
         @media screen and (max-width: $break-mobile){
             height: 100vh;
             width: 100vw;
-            background-image: url(../images/rasp-m.jpg);
+            background-image: url(../images/project-berrybot-banner.jpg);
             }
         
         .project-info-wrapper3{
@@ -420,7 +420,7 @@ body{
     }
     
     .project-img4{
-        background-image: url(../images/gamble.jpg);
+        background-image: url(../images/project-useless-banner.jpg);
         background-size: cover;
         height: 100vh;
         background-attachment: fixed;
@@ -430,7 +430,7 @@ body{
         @media screen and (max-width: $break-mobile){
             height: 100vh;
             width: 100vw;
-            background-image: url(../images/gamble-m.jpg);
+            background-image: url(../images/project-useless-banner.jpg);
             }
         
         .project-info-wrapper4{

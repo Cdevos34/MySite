@@ -24,7 +24,7 @@ body{
         }
         
         .introduction-section{
-            background-image: url(../images/lamps.jpeg);
+            background-image: url(../images/lamps.jpg);
             //background-attachment: fixed;
             background-size: cover;
             //background-color: #5b76ff;
@@ -44,7 +44,7 @@ body{
             @media screen and (max-width: $break-mobile){
                 flex-direction: column;
                 padding-top: 100px;
-                background-image: url(../images/lamps.jpeg);
+                background-image: url(../images/lamps.jpg);
                 width: 100%;
             }
             

@@ -9,7 +9,7 @@ body{
     background-image: url(../images/fabric.png);
     
     .banner-parallax{
-        background-image: url(/images/keyboard.jpg);
+        background-image: url(/images/project-lifedrive-banner.jpg);
         //background-attachment: fixed;
         background-size: cover;
         display: flex;
@@ -18,7 +18,7 @@ body{
         flex-direction: column;
         min-height: 100vh;
         @media screen and(max-width: $break-mobile){
-            background-image: url(/images/keyboard-m.jpg);
+            background-image: url(/images/project-lifedrive-banner.jpg);
             width: 100vw;
             background-position: 0px!important;
         }
@@ -416,6 +416,59 @@ body{
             }
         }
             
+    }
+    
+    .next-back-section{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 20%;
+        //background-color: red;
+        
+        .previous-project-icon{
+            display: flex;
+            transform: scaleX(-1);
+            justify-content: flex-start;
+            margin: 20px;
+            height: 64px;
+            @media screen and (max-width: $break-mobile){
+                height: 50px;
+            }
+            &:hover{
+                background-color: #fff;
+                margin: 0px;
+                padding: 20px;
+                border-radius: 50%;
+                transition: 0.2s;
+            }
+        }
+        
+        .next-back-text{
+            font-family: montserrat;
+            margin: 20px;
+            font-size: 1.5em;
+            @media screen and (max-width: $break-mobile){
+                font-size: 1em;
+            }
+        }
+        
+        .next-project-icon{
+            display: flex;
+            align-items: flex-end;
+            margin: 20px;
+            height: 64px;
+            @media screen and (max-width: $break-mobile){
+                height: 50px;
+            }
+            &:hover{
+                background-color: #fff;
+                margin: 0px;
+                padding: 20px;
+                border-radius: 50%;
+                transition: 0.2s;
+            }
+        }
+        
     }
     
     .social-block-wrapper{

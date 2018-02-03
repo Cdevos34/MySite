@@ -181,7 +181,7 @@ body {
       body .content-wrapper .banner-parallax {
         background-position: 0px !important; } }
     body .content-wrapper .introduction-section {
-      background-image: url(../images/lamps.jpeg);
+      background-image: url(../images/lamps.jpg);
       background-size: cover;
       text-align: left;
       padding: 0px 0px 0px 0px;
@@ -206,7 +206,7 @@ body {
           -ms-flex-direction: column;
           flex-direction: column;
           padding-top: 100px;
-          background-image: url(../images/lamps.jpeg);
+          background-image: url(../images/lamps.jpg);
           width: 100%; } }
       body .content-wrapper .introduction-section .about-me-p {
         font-size: 1.2em;

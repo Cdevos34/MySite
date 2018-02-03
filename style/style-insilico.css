@@ -169,7 +169,7 @@ body {
 body {
   background-image: url(../images/fabric.png); }
   body .banner-parallax {
-    background-image: url(/images/sticker.jpg);
+    background-image: url(/images/project-insilico-banner.jpg);
     background-size: cover;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -184,7 +184,7 @@ body {
     min-height: 100vh; }
     @media screen and (max-width: 768px) {
       body .banner-parallax {
-        background-image: url(/images/sticker-m.jpg);
+        background-image: url(/images/project-insilico-banner.jpg);
         width: 100%;
         background-position: 0px !important; } }
     body .banner-parallax .insilico {
@@ -253,43 +253,7 @@ body {
     -ms-flex-align: center;
     align-items: center;
     -webkit-box-shadow: 0px 18px 48px -22px rgba(0, 0, 0, 0.65);
-    box-shadow: 0px 18px 48px -22px rgba(0, 0, 0, 0.65);
-    /*.name1{
-            position: absolute;
-            top: 130%;
-            font-family: montserrat, sans-serif;
-            font-size: 2.5em;
-            left: 50px;
-        }
-        
-        .name2{
-            position: absolute;
-            top: 130%;
-            font-family: montserrat, sans-serif;
-            font-size: 2.5em;
-        }
-        
-        .name3{
-            position: absolute;
-            top: 130%;
-            font-family: montserrat, sans-serif;
-            font-size: 2.5em;
-        }
-        
-        .name4{
-            position: absolute;
-            top: 130%;
-            font-family: montserrat, sans-serif;
-            font-size: 2.5em;
-        }
-        
-        .name5{
-            position: absolute;
-            top: 130%;
-            font-family: montserrat, sans-serif;
-            font-size: 2.5em;
-            left: %;
-        }*/ }
+    box-shadow: 0px 18px 48px -22px rgba(0, 0, 0, 0.65); }
     body .team .team-title {
       -webkit-animation-delay: .2s;
       animation-delay: .2s;
@@ -319,7 +283,8 @@ body {
       -ms-flex-pack: center;
       justify-content: center;
       -ms-flex-wrap: wrap;
-      flex-wrap: wrap; }
+      flex-wrap: wrap;
+      max-width: 90%; }
       body .team .members .chris {
         border-radius: 50%;
         width: 100px;
@@ -407,7 +372,7 @@ body {
     background-color: #9975b9; }
     @media screen and (max-width: 768px) {
       body .slanted-div1 {
-        height: 100px; } }
+        height: 50px; } }
     body .slanted-div1:after {
       position: absolute;
       width: 100%;
@@ -460,6 +425,7 @@ body {
           padding-top: 0px;
           width: 200px;
           height: 365px;
+          margin-bottom: 0px;
           position: static; } }
     body .application .app-text {
       margin-left: 150px;
@@ -548,7 +514,7 @@ body {
           margin-top: 200px; } }
       @media screen and (max-width: 768px) {
         body .table-subsection .table-intro {
-          max-width: 80%;
+          width: 80%;
           font-size: 1em;
           margin-top: 100px; } }
     body .table-subsection .insilico-vid {
@@ -609,7 +575,8 @@ body {
           -webkit-box-direction: normal;
           -ms-flex-direction: column;
           flex-direction: column;
-          font-size: 1em; } }
+          font-size: 1em;
+          padding-top: 0px; } }
   body .location-section {
     width: 100%;
     display: -webkit-box;
@@ -673,6 +640,67 @@ body {
           margin-top: 0px;
           margin: 100 auto;
           font-size: 1em; } }
+  body .next-back-section {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    height: 20%; }
+    body .next-back-section .previous-project-icon {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-transform: scaleX(-1);
+      -ms-transform: scaleX(-1);
+      transform: scaleX(-1);
+      -webkit-box-pack: start;
+      -ms-flex-pack: start;
+      justify-content: flex-start;
+      margin: 20px;
+      height: 64px; }
+      @media screen and (max-width: 768px) {
+        body .next-back-section .previous-project-icon {
+          height: 50px; } }
+      body .next-back-section .previous-project-icon:hover {
+        background-color: #fff;
+        margin: 0px;
+        padding: 20px;
+        border-radius: 50%;
+        -webkit-transition: 0.2s;
+        -o-transition: 0.2s;
+        transition: 0.2s; }
+    body .next-back-section .next-back-text {
+      font-family: montserrat;
+      margin: 20px;
+      font-size: 1.5em; }
+      @media screen and (max-width: 768px) {
+        body .next-back-section .next-back-text {
+          font-size: 1em; } }
+    body .next-back-section .next-project-icon {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: end;
+      -ms-flex-align: end;
+      align-items: flex-end;
+      margin: 20px;
+      height: 64px; }
+      @media screen and (max-width: 768px) {
+        body .next-back-section .next-project-icon {
+          height: 50px; } }
+      body .next-back-section .next-project-icon:hover {
+        background-color: #fff;
+        margin: 0px;
+        padding: 20px;
+        border-radius: 50%;
+        -webkit-transition: 0.2s;
+        -o-transition: 0.2s;
+        transition: 0.2s; }
   body .social-block-wrapper {
     margin: 0 auto;
     text-align: center;
@@ -715,7 +743,7 @@ body {
         width: 40px; }
         @media screen and (max-width: 768px) {
           body .social-block-wrapper .social-block1 .about-page-icon {
-            width: 40px; } }
+            width: 30px; } }
     body .social-block-wrapper .social-block2 {
       font-family: montserrat, sans-serif;
       margin-top: 0px;
@@ -741,7 +769,7 @@ body {
         width: 40px; }
         @media screen and (max-width: 768px) {
           body .social-block-wrapper .social-block2 .about-page-icon {
-            width: 40px; } }
+            width: 30px; } }
     body .social-block-wrapper .social-block3 {
       font-family: montserrat, sans-serif;
       margin-top: 0px;
@@ -767,7 +795,7 @@ body {
         width: 40px; }
         @media screen and (max-width: 768px) {
           body .social-block-wrapper .social-block3 .about-page-icon {
-            width: 40px; } }
+            width: 30px; } }
     body .social-block-wrapper .social-block4 {
       font-family: montserrat, sans-serif;
       margin-top: 0px;
@@ -793,8 +821,13 @@ body {
         width: 40px; }
         @media screen and (max-width: 768px) {
           body .social-block-wrapper .social-block4 .about-page-icon {
-            width: 40px; } }
+            width: 30px; } }
     body .social-block-wrapper .disclaimer {
       font-family: montserrat, sans-serif;
       margin: 0px 0px 0px 40px;
       color: #fff; }
+      @media screen and (max-width: 768px) {
+        body .social-block-wrapper .disclaimer {
+          margin: 0px 0px 0px 20px;
+          max-width: 100px;
+          font-size: 0.8em; } }

@@ -9,7 +9,7 @@ body{
     background-image: url(../images/fabric.png);
     
     .banner-parallax{
-        background-image: url(/images/sticker.jpg);
+        background-image: url(/images/project-insilico-banner.jpg);
         //background-attachment: fixed;
         background-size: cover;
         //background-position: center;
@@ -19,7 +19,7 @@ body{
         flex-direction: column;
         min-height: 100vh;
         @media screen and(max-width: $break-mobile){
-            background-image: url(/images/sticker-m.jpg);
+            background-image: url(/images/project-insilico-banner.jpg);
             width: 100%;
             background-position: 0px!important;
         }
@@ -116,6 +116,7 @@ body{
             align-items: center;
             justify-content: center;
             flex-wrap: wrap;
+            max-width: 90%;
             
             .chris{
                 border-radius: 50%;
@@ -197,44 +198,6 @@ body{
                 }    
             }
         }
-        
-        /*.name1{
-            position: absolute;
-            top: 130%;
-            font-family: montserrat, sans-serif;
-            font-size: 2.5em;
-            left: 50px;
-        }
-        
-        .name2{
-            position: absolute;
-            top: 130%;
-            font-family: montserrat, sans-serif;
-            font-size: 2.5em;
-        }
-        
-        .name3{
-            position: absolute;
-            top: 130%;
-            font-family: montserrat, sans-serif;
-            font-size: 2.5em;
-        }
-        
-        .name4{
-            position: absolute;
-            top: 130%;
-            font-family: montserrat, sans-serif;
-            font-size: 2.5em;
-        }
-        
-        .name5{
-            position: absolute;
-            top: 130%;
-            font-family: montserrat, sans-serif;
-            font-size: 2.5em;
-            left: %;
-        }*/
-        
     }
     
     .slanted-div1{
@@ -243,7 +206,7 @@ body{
             height: 200px;
             background-color: $purple-dark;
             @media screen and (max-width: $break-mobile){
-                height: 100px
+                height: 50px
             }
             &:after{
                 position: absolute;
@@ -295,6 +258,7 @@ body{
                 //transform: rotate(20deg);
                 width: 200px;
                 height: 365px;
+                margin-bottom: 0px;
                 position: static;
             }
         }
@@ -383,7 +347,7 @@ body{
                 margin-top: 200px;
                 }
             @media screen and(max-width: $break-mobile){
-                max-width: 80%;  
+                width: 80%;  
                 font-size: 1em;
                 margin-top: 100px;
                 }
@@ -440,6 +404,7 @@ body{
                 width: 90%;
                 flex-direction: column;
                 font-size: 1em;
+                padding-top: 0px;
             }
         }
         
@@ -498,6 +463,59 @@ body{
             }
         }
     
+    .next-back-section{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 20%;
+        //background-color: red;
+        
+        .previous-project-icon{
+            display: flex;
+            transform: scaleX(-1);
+            justify-content: flex-start;
+            margin: 20px;
+            height: 64px;
+            @media screen and (max-width: $break-mobile){
+                height: 50px;
+            }
+            &:hover{
+                background-color: #fff;
+                margin: 0px;
+                padding: 20px;
+                border-radius: 50%;
+                transition: 0.2s;
+            }
+        }
+        
+        .next-back-text{
+            font-family: montserrat;
+            margin: 20px;
+            font-size: 1.5em;
+            @media screen and (max-width: $break-mobile){
+                font-size: 1em;
+            }
+        }
+        
+        .next-project-icon{
+            display: flex;
+            align-items: flex-end;
+            margin: 20px;
+            height: 64px;
+            @media screen and (max-width: $break-mobile){
+                height: 50px;
+            }
+            &:hover{
+                background-color: #fff;
+                margin: 0px;
+                padding: 20px;
+                border-radius: 50%;
+                transition: 0.2s;
+            }
+        }
+        
+    }
+    
     .social-block-wrapper{
             margin: 0 auto;
             text-align: center;
@@ -535,7 +553,7 @@ body{
                 .about-page-icon{
                     width: 40px;
                     @media screen and(max-width: $break-mobile){
-                        width: 40px;
+                        width: 30px;
                     }
                 }
             }
@@ -561,7 +579,7 @@ body{
                 .about-page-icon{
                     width: 40px;
                     @media screen and(max-width: $break-mobile){
-                        width: 40px;
+                        width: 30px;
                     }
                 }
             }
@@ -587,7 +605,7 @@ body{
                 .about-page-icon{
                     width: 40px;
                     @media screen and(max-width: $break-mobile){
-                        width: 40px;
+                        width: 30px;
                     }
                 }
             }
@@ -612,7 +630,7 @@ body{
                 .about-page-icon{
                     width: 40px;
                     @media screen and(max-width: $break-mobile){
-                        width: 40px;
+                        width: 30px;
                     }
                 }
             }
@@ -621,6 +639,11 @@ body{
                 font-family: montserrat, sans-serif;
                 margin: 0px 0px 0px 40px;
                 color: #fff;
+                @media screen and (max-width: $break-mobile){
+                    margin: 0px 0px 0px 20px;
+                    max-width: 100px;
+                    font-size: 0.8em;
+                }
             }
             
         }

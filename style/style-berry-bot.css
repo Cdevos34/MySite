@@ -169,7 +169,7 @@ body {
 body {
   background-image: url(../images/fabric.png); }
   body .banner-parallax {
-    background-image: url(/images/rasp.jpg);
+    background-image: url(/images/project-berrybot-banner.jpg);
     background-size: cover;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -184,7 +184,7 @@ body {
     min-height: 100vh; }
     @media screen and (max-width: 768px) {
       body .banner-parallax {
-        background-image: url(/images/rasp-m.jpg);
+        background-image: url(/images/project-berrybot-banner.jpg);
         width: 100%;
         background-position: 0px !important; } }
     body .banner-parallax .insilico {
@@ -527,6 +527,67 @@ body {
           margin-top: 0px;
           margin: 100 auto;
           font-size: 1em; } }
+  body .next-back-section {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    height: 20%; }
+    body .next-back-section .previous-project-icon {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-transform: scaleX(-1);
+      -ms-transform: scaleX(-1);
+      transform: scaleX(-1);
+      -webkit-box-pack: start;
+      -ms-flex-pack: start;
+      justify-content: flex-start;
+      margin: 20px;
+      height: 64px; }
+      @media screen and (max-width: 768px) {
+        body .next-back-section .previous-project-icon {
+          height: 50px; } }
+      body .next-back-section .previous-project-icon:hover {
+        background-color: #fff;
+        margin: 0px;
+        padding: 20px;
+        border-radius: 50%;
+        -webkit-transition: 0.2s;
+        -o-transition: 0.2s;
+        transition: 0.2s; }
+    body .next-back-section .next-back-text {
+      font-family: montserrat;
+      margin: 20px;
+      font-size: 1.5em; }
+      @media screen and (max-width: 768px) {
+        body .next-back-section .next-back-text {
+          font-size: 1em; } }
+    body .next-back-section .next-project-icon {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: end;
+      -ms-flex-align: end;
+      align-items: flex-end;
+      margin: 20px;
+      height: 64px; }
+      @media screen and (max-width: 768px) {
+        body .next-back-section .next-project-icon {
+          height: 50px; } }
+      body .next-back-section .next-project-icon:hover {
+        background-color: #fff;
+        margin: 0px;
+        padding: 20px;
+        border-radius: 50%;
+        -webkit-transition: 0.2s;
+        -o-transition: 0.2s;
+        transition: 0.2s; }
   body .social-block-wrapper {
     margin: 0 auto;
     text-align: center;
